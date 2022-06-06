@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_34" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>150</costStuffCount>
+		<!-- <stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories> -->
+		<statBases>
+			<WorkToMake>22000</WorkToMake>
+			<Mass>10</Mass>
+			<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>15</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin> 
+			<SuppressionPower>0.2</SuppressionPower>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<apparel>
+			<shellCoversHead>false</shellCoversHead>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead><!--Shell layer visual glitch-->
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_UpperShell_Armor</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_SoldierArmorA-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_SoldierArmorA</defName>
+		<description>(Ahmislan)34_SoldierArmorA</description>
+		<label>(Ahmislan)34_SoldierArmorA</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_SoldierArmorA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_SoldierArmorA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,175,175)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_SoldierArmorB-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_SoldierArmorB</defName>
+		<description>(Ahmislan)34_SoldierArmorB</description>
+		<label>(Ahmislan)34_SoldierArmorB</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_SoldierArmorB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_SoldierArmorB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,175,175)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_SoldierArmorC-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_SoldierArmorC</defName>
+		<description>(Ahmislan)34_SoldierArmorC</description>
+		<label>(Ahmislan)34_SoldierArmorC</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_SoldierArmorC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_SoldierArmorC</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,175,175)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_KnightArmorA-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_KnightArmorA</defName>
+		<description>(Ahmislan)34_KnightArmorA</description>
+		<label>(Ahmislan)34_KnightArmorA</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_KnightArmorA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_KnightArmorA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+	
+<!--Anneli_Ahmislan_KnightArmorB-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_KnightArmorB</defName>
+		<description>(Ahmislan)34_KnightArmorB</description>
+		<label>(Ahmislan)34_KnightArmorB</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_KnightArmorB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_KnightArmorB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_KnightArmorC-->
+	<ThingDef ParentName="Anneli_Ahmislan_34">
+		<defName>Anneli_Ahmislan_KnightArmorC</defName>
+		<description>(Ahmislan)34_KnightArmorC</description>
+		<label>(Ahmislan)34_KnightArmorC</label>
+		<graphicData>
+			<texPath>34/Anneli_Ahmislan_KnightArmorC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>34/Anneli_Ahmislan_KnightArmorC</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>	
+
+			
+</Defs>

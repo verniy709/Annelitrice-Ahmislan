@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="Anneli_Ahmislan_KindBase" ParentName="Anneli_KindBase" Abstract="True">
+		<label>Ahmislan_KindBase</label>
+		<itemQuality>Good</itemQuality>
+		<defaultFactionType>Anneli_Faction_Ahmislan</defaultFactionType>
+		<isFighter>true</isFighter>
+		<combatPower>100</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<backstoryCategories>
+			<li>Anneli_Childhood</li>
+			<li>Anneli_Story_Ahmislan</li>
+		</backstoryCategories>
+		<techHediffsChance>0.1</techHediffsChance>
+		<techHediffsMoney>200</techHediffsMoney>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<inventoryOptions>
+			<skipChance>0.1</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<choiceChance>100</choiceChance>
+					<thingDef>Silver</thingDef>
+					<countRange>
+						<min>50</min>
+						<max>300</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+
+<!--Lower Class-->				
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Vagrant</defName>
+		<label>Anneli_Ahmislan_Vagrant</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Vagrant</li>
+		</apparelTags>
+		<apparelMoney>150~300</apparelMoney>
+		<weaponTags>
+      		<li>NeolithicMeleeBasic</li>
+      		<li>NeolithicRangedBasic</li>
+		</weaponTags>
+		<weaponMoney>50~300</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_PeasantMan</defName>
+		<label>Anneli_Ahmislan_PeasantMan</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_PeasantMan</li>
+		</apparelTags>
+		<apparelMoney>750~1000</apparelMoney>
+		<weaponTags>
+      		<li>NeolithicMeleeBasic</li>
+			<li>NeolithicMeleeDecent</li>
+			<li>MedievalMeleeBasic</li>
+	  		<li>NeolithicRangedBasic</li>
+	  		<li>NeolithicRangedDecent</li>
+	  		<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<weaponMoney>50~300</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_PeasantWoman</defName>
+		<label>Anneli_Ahmislan_PeasantWoman</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_PeasantWoman</li>
+		</apparelTags>
+		<apparelMoney>750~1000</apparelMoney>
+		<weaponTags>
+      		<li>NeolithicMeleeBasic</li>
+			<li>NeolithicMeleeDecent</li>
+			<li>MedievalMeleeBasic</li>
+	  		<li>NeolithicRangedBasic</li>
+	  		<li>NeolithicRangedDecent</li>
+	  		<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<weaponMoney>50~300</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Militia</defName>
+		<label>Anneli_Ahmislan_Militia</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Militia</li>
+		</apparelTags>
+		<apparelMoney>1500~2500</apparelMoney>
+		<weaponTags>
+			<li>NeolithicMeleeDecent</li>
+			<li>MedievalMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+		<modExtensions Inherit="False">
+            <li Class="VFECore.PawnKindDefExtension">
+                <shieldMoney>
+                    <min>50</min>
+                    <max>200</max>
+                </shieldMoney>
+                <shieldTags>
+                    <li>AhmislanRemake_WoodenShield</li>
+                </shieldTags>
+            </li>
+        </modExtensions>
+	</PawnKindDef>
+
+<!--Bourgeoisie-->				
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Craftswoman</defName>
+		<label>Anneli_Ahmislan_Craftswoman</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Craftswoman</li>
+		</apparelTags>
+		<apparelMoney>1500~2500</apparelMoney>
+		<weaponTags>
+			<li>NeolithicRangedDecent</li>
+      		<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_CourtLady</defName>
+		<label>Anneli_Ahmislan_CourtLady</label>
+		<isFighter>True</isFighter>
+		<trader>true</trader>
+		<apparelTags>
+			<li>Anneli_Ahmislan_CourtLady</li>
+		</apparelTags>
+		<apparelMoney>1500~2500</apparelMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Merchant</defName>
+		<label>Anneli_Ahmislan_Merchant</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Merchant</li>
+		</apparelTags>
+		<apparelMoney>1500~2500</apparelMoney>
+		<weaponTags>
+      		<li>NeolithicRangedDecent</li>
+      		<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_MercenaryInfantry</defName>
+		<label>Anneli_Ahmislan_MercenaryInfantry</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_MercenaryInfantry</li>
+		</apparelTags>
+		<apparelMoney>2500~4000</apparelMoney>
+		<weaponTags>
+			<li>MedievalMeleeBasic</li>
+			<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_MercenaryArcher</defName>
+		<label>Anneli_Ahmislan_MercenaryArcher</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_MercenaryArcher</li>
+		</apparelTags>
+		<apparelMoney>1500~2500</apparelMoney>
+		<weaponTags>
+      		<li>NeolithicRangedDecent</li>
+      		<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+<!--Upper Class-->				
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Clergywoman</defName>
+		<label>Anneli_Ahmislan_Clergywoman</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Clergywoman</li>
+		</apparelTags>
+		<apparelMoney>1500~2500</apparelMoney>
+		<weaponTags>
+      		<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Knight</defName>
+		<label>Anneli_Ahmislan_Knight</label>
+		<isFighter>True</isFighter>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Knight</li>
+		</apparelTags>
+		<apparelMoney>2500~4000</apparelMoney>
+		<weaponTags>
+      		<li>MedievalMeleeDecent</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
+		<defName>Anneli_Ahmislan_Royalty</defName>
+		<label>Anneli_Ahmislan_Royalty</label>
+		<isFighter>True</isFighter>
+		<factionLeader>true</factionLeader>
+		<apparelTags>
+			<li>Anneli_Ahmislan_Royalty</li>
+		</apparelTags>
+		<apparelMoney>2500~4000</apparelMoney>
+		<weaponTags>
+      		<li>NeolithicRangedDecent</li>
+      		<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<weaponMoney>100~750</weaponMoney>
+	</PawnKindDef>
+
+
+</Defs>

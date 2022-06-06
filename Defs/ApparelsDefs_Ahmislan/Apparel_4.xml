@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_4" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>100</costStuffCount>
+		<!-- <stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories> -->
+		<statBases>
+			<WorkToMake>17500</WorkToMake>
+			<Mass>4.5</Mass>
+			<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>10</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<SuppressionPower>0.2</SuppressionPower>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_UpperShell_Armor</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LeatherVest-->
+	<ThingDef ParentName="Anneli_Ahmislan_4">
+		<defName>Anneli_Ahmislan_LeatherVest</defName>
+		<description>(Ahmislan)4_LeatherVest</description>
+		<label>(Ahmislan)4_LeatherVest</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_LeatherVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_LeatherVest</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LeatherCorset-->
+	<ThingDef ParentName="Anneli_Ahmislan_4">
+		<defName>Anneli_Ahmislan_LeatherCorset</defName>
+		<description>(Ahmislan)4_LeatherCorset</description>
+		<label>(Ahmislan)4_LeatherCorset</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_LeatherCorset</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_LeatherCorset</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Clergywoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_2C" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>25</costStuffCount>
+		<!-- <stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories> -->
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Feet</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+		<graphicData>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_MoccasinsA-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_MoccasinsA</defName>
+		<description>(Ahmislan)2C_MoccasinsA</description>
+		<label>(Ahmislan)2C_MoccasinsA</label>
+		<equippedStatOffsets>
+			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<PlantHarvestYield>0.05</PlantHarvestYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_MoccasinsA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_MoccasinsA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(140,130,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_MoccasinsB-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_MoccasinsB</defName>
+		<description>(Ahmislan)2C_MoccasinsB</description>
+		<label>(Ahmislan)2C_MoccasinsB</label>
+		<equippedStatOffsets>
+			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<PlantHarvestYield>0.05</PlantHarvestYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_MoccasinsB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_MoccasinsB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(140,130,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantBoots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_PeasantBoots</defName>
+		<description>(Ahmislan)2C_PeasantBoots</description>
+		<label>(Ahmislan)2C_PeasantBoots</label>
+		<equippedStatOffsets>
+			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
+			<AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+			<AnimalGatherYield>0.05</AnimalGatherYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_PeasantBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_PeasantBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(140,130,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_Boots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_Boots</defName>
+		<description>(Ahmislan)2C_Boots</description>
+		<label>(Ahmislan)2C_Boots</label>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<MiningSpeed>0.05</MiningSpeed>
+			<MiningYield>0.05</MiningYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_Boots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_Boots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(140,130,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_LongBoots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_LongBoots</defName>
+		<description>(Ahmislan)2C_LongBoots</description>
+		<label>(Ahmislan)2C_LongBoots</label>
+		<equippedStatOffsets>
+			<SocialImpact>0.10</SocialImpact>
+			<NegotiationAbility>0.05</NegotiationAbility>
+			<TradePriceImprovement>0.05</TradePriceImprovement>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_LongBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_LongBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(140,130,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_DressShoes-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_DressShoes</defName>
+		<description>(Ahmislan)2C_DressShoes</description>
+		<label>(Ahmislan)2C_DressShoes</label>
+		<equippedStatOffsets>
+			<TrainAnimalChance>0.05</TrainAnimalChance>
+			<CookSpeed>0.05</CookSpeed>
+			<FoodPoisonChance>-0.05</FoodPoisonChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_DressShoes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_DressShoes</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_ArmorLongBoots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_ArmorLongBoots</defName>
+		<description>(Ahmislan)2C_ArmorLongBoots</description>
+		<label>(Ahmislan)2C_ArmorLongBoots</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_ArmorLongBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_ArmorLongBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,175,175)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_ArmorBoots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_ArmorBoots</defName>
+		<description>(Ahmislan)2C_ArmorBoots</description>
+		<label>(Ahmislan)2C_ArmorBoots</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_ArmorBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_ArmorBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(180,175,175)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_NunHeels-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_NunHeels</defName>
+		<description>(Ahmislan)2C_NunHeels</description>
+		<label>(Ahmislan)2C_NunHeels</label>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.05</MedicalTendQuality>
+			<MedicalTendSpeed>0.05</MedicalTendSpeed>
+			<ConversionPower>0.1</ConversionPower>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_NunHeels</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_NunHeels</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Clergywoman</li>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_KnightArmorBoots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_KnightArmorBoots</defName>
+		<description>(Ahmislan)2C_KnightArmorBoots</description>
+		<label>(Ahmislan)2C_KnightArmorBoots</label>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_KnightArmorBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_KnightArmorBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+
+</Defs>

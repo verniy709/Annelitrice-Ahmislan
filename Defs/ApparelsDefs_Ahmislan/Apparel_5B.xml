@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_5B" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_UpperShell_Tactical</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+			<wornGraphicData>
+        		<renderUtilityAsPack>true</renderUtilityAsPack><!--Under Body-->
+      		</wornGraphicData>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantCloak-->
+	<ThingDef ParentName="Anneli_Ahmislan_5B">
+		<defName>Anneli_Ahmislan_PeasantCloak</defName>
+		<description>(Ahmislan)5B_PeasantCloak</description>
+		<label>(Ahmislan)5B_PeasantCloak</label>
+		<equippedStatOffsets>
+			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>5B/Anneli_Ahmislan_PeasantCloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>5B/Anneli_Ahmislan_PeasantCloak</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(220,215,210)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.15</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+	
+
+
+</Defs>

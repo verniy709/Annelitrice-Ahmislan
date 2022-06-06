@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_2AB" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3.5</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantChemise-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_PeasantChemise</defName>
+		<description>(Ahmislan)2AB_PeasantChemise</description>
+		<label>(Ahmislan)2AB_PeasantChemise</label>
+		<equippedStatOffsets>
+			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
+			<AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+			<AnimalGatherYield>0.05</AnimalGatherYield>
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<PlantHarvestYield>0.05</PlantHarvestYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_PeasantChemise</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_PeasantChemise</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(220,215,210)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_MaidDress-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_MaidDress</defName>
+		<description>(Ahmislan)2AB_MaidDress</description>
+		<label>(Ahmislan)2AB_MaidDress</label>
+		<equippedStatOffsets>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<CookSpeed>0.1</CookSpeed>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_MaidDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_MaidDress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+<!--Anneli_Ahmislan_ArcherDress-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_ArcherDress</defName>
+		<description>(Ahmislan)2AB_ArcherDress</description>
+		<label>(Ahmislan)2AB_ArcherDress</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_ArcherDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_ArcherDress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_SoldierUniform-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_SoldierUniform</defName>
+		<description>(Ahmislan)2AB_SoldierUniform</description>
+		<label>(Ahmislan)2AB_SoldierUniform</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_SoldierUniform</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_SoldierUniform</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,235)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>2.0</generateCommonality><!--More chance-->
+	</ThingDef>
+
+<!--Anneli_Ahmislan_NunDress-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_NunDress</defName>
+		<description>(Ahmislan)2AB_NunDress</description>
+		<label>(Ahmislan)2AB_NunDress</label>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<ConversionPower>0.2</ConversionPower>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_NunDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_NunDress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Clergywoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Adulthood-->
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_AverageStudent</defName>
+		<title>Annelitrice Ahmislan Average Student</title>
+		<titleShort>Ahmislan Average Student</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a Ahmislan average student. She does not need a description at all.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_MusicClub</defName>
+		<title>Annelitrice Ahmislan Music Club</title>
+		<titleShort>Ahmislan Music Club</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a member of a Ahmislan music club. She dreams of being a lead singer.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_BaseballPlayer</defName>
+		<title>Annelitrice Ahmislan Baseball Player</title>
+		<titleShort>Ahmislan Baseball Player</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a Ahmislan baseball player. Her team has won the national campaign for five consecutive years.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_GardenClub</defName>
+		<title>Annelitrice Ahmislan Garden Club</title>
+		<titleShort>Ahmislan Garden Club</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a member of a Ahmislan garden club. Her favourite are Stargazers.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_CatCafe</defName>
+		<title>Annelitrice Cat Cafe</title>
+		<titleShort>Ahmislan Cat Cafe</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as an employee of a cat cafe.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_SculptureClub</defName>
+		<title>Annelitrice Ahmislan Sculpture Club</title>
+		<titleShort>Ahmislan Sculpture Club</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a member of Ahmislan sculpture club. Her best work is Sweat No.2VOPN. This piece bears an illustration of a missile. If you squint your eyes, the unbalanced composition of the image reveals the outline of a gourd.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Artistic</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_CookingClub</defName>
+		<title>Annelitrice Cooking Club</title>
+		<titleShort>Ahmislan Cooking Club</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a member of Ahmislan cooking club. The club gets really busy before Valentine day.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_KarateClub</defName>
+		<title>Annelitrice Ahmislan Karate Club</title>
+		<titleShort>Ahmislan Karate Club</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a member of Ahmislan karate club. She likes to have some juice after practice.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_OutingClub</defName>
+		<title>Annelitrice Outing Club</title>
+		<titleShort>Ahmislan Outing Club</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a member of Ahmislan outing club. She should have bypassed the camp of the cannibal tribe.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>6</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>-10</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="Anneli_Backstory_Base">
+		<defName>Anneli_Ahmislan_StudentAssociation</defName>
+		<title>Annelitrice Ahmislan Student Association</title>
+		<titleShort>Ahmislan Student Association</titleShort>
+		<baseDescription>[PAWN_nameDef] acts as a representative of a Ahmislan student association. Her duty is to enforce the discipline of the Ahmislan.</baseDescription>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+	<spawnCategories>
+		<li>Anneli_Story_Ahmislan</li>
+		<li>Anneli_Story</li>
+	</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+</Defs>

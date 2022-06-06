@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Ahmislan Shield Base -->
+  
+  <ThingDef Name="AhmislanRemake_BaseShield" ParentName="BaseWeapon" Abstract="True">
+    <techLevel>Medieval</techLevel>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
+    <thingCategories>
+      <li>Category_Annelitrice_Ahmislan</li>
+    </thingCategories>
+    <thingClass>VFECore.Apparel_Shield</thingClass>
+    <statBases>
+      <WorkToMake>150</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>2.0</Mass>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>Anneli_Ahmislan_Workbench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+    <apparel>
+      <bodyPartGroups>
+        <li>LeftHand</li>
+      </bodyPartGroups>
+      <layers>
+        <li>VFEC_OuterShell</li>
+      </layers>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+    </apparel>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li>
+            <compClass>CompColorable</compClass>
+     </li>
+    </comps>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="AhmislanRemake_BaseShield">
+    <defName>Anneli_Ahmislan_WoodenShield</defName>
+    <label>(Ahmislan)9_WoodenShield</label>
+    <description>(Ahmislan)9_WoodenShield</description>
+    <graphicData>
+        <texPath>9/Anneli_Ahmislan_WoodenShield</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>0.85</drawSize>
+    </graphicData>
+    <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>15</costStuffCount>
+    <costList>
+        <WoodLog>15</WoodLog>
+    </costList>
+    <equippedAngleOffset>-40</equippedAngleOffset>
+    <statBases>
+        <MaxHitPoints>150</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+        <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        <WorkToMake>200</WorkToMake>
+        <Mass>2.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+        <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
+    <tools>
+        <li>
+            <label>base</label>
+            <capacities>
+                <li>Poke</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+            <label>centre</label>
+            <labelUsedInLogging>false</labelUsedInLogging>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+    </tools>
+    <comps>
+        <li Class="VFECore.CompProperties_Shield">
+            <shieldTags>
+                <li>AhmislanRemake_WoodenShield</li>
+            </shieldTags>
+            <useDeflectMetalEffect>false</useDeflectMetalEffect>
+            <coveredBodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Hands</li>
+                <li>Legs</li>
+            </coveredBodyPartGroups>
+            <offHandGraphicData>
+                <texPath>9/Anneli_Ahmislan_WoodenShield</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+                <drawSize>0.85</drawSize>
+            </offHandGraphicData>
+            <offHandHoldOffset>
+                <northDefault>
+                    <offset>(-0.13, 0, 0.30)</offset>
+                    <behind>true</behind>
+                </northDefault>
+                <east>
+                    <offset>(0.05, 0, 0.30)</offset>
+                    <behind>true</behind>
+                </east>
+                <south>
+                    <offset>(0.18, -0.06, 0.275)</offset>
+                </south>
+                <west>
+                    <offset>(-0.05, 0, 0.275)</offset>
+                </west>
+            </offHandHoldOffset>
+        </li>
+    </comps>
+    <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>10</weight>
+                    <only>(65,065,070)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>(75,070,075)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>(100,090,090)</only>
+                </li>
+            </options>
+        </colorGenerator>
+</ThingDef>
+
+</Defs>
