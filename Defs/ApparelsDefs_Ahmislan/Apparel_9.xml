@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="Anneli_Gakuen_9" ParentName="Anneli_Gakuen_ApparelSpecialBase"  Abstract="True">
+	<ThingDef Name="Anneli_Ahmislan_9" ParentName="Anneli_Ahmislan_ApparelSpecialBase"  Abstract="True">
 		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
 		<costList>
-      		<ComponentIndustrial>1</ComponentIndustrial>
+      		<ComponentSpacer>3</ComponentSpacer>
     	</costList>
 		<statBases>
-			<WorkToMake>12000</WorkToMake>
+			<WorkToMake>20000</WorkToMake>
 			<Mass>0.5</Mass>
 			<StuffEffectMultiplierArmor>0.01</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
@@ -19,20 +19,45 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
+				<li>Shoulders</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Anneli_Misc</li>
 			</layers>
 			<tags>
-				<li>Anneli_Gakuen</li>
+				<li>Anneli_Ahmislan</li>
 			</tags>
 		</apparel>
 	</ThingDef>
+
+<!--Anneli_Ahmislan_Knight-->
+	<ThingDef ParentName="Anneli_Ahmislan_9">
+		<defName>Anneli_Ahmislan_Knight</defName>
+		<description>(Ahmislan)9_Knight</description>
+		<label>(Ahmislan)9_POD_Knight</label>
+		<tickerType>Normal</tickerType>
+		<thingClass>Annelitrice.AnnelitriceShieldBeltKnightA</thingClass>
+		<statBases>
+			<EnergyShieldRechargeRate>0.20</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+		</statBases>
+		<graphicData>
+			<texPath>9/Anneli_Ahmislan_Knight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>9/Anneli_Ahmislan_Knight</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Command</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
 
 			
 </Defs>

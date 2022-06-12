@@ -60,7 +60,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -91,7 +91,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -124,7 +124,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(240,220,225,235)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>

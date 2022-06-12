@@ -405,8 +405,8 @@
 			<wornGraphicPath>2C/Anneli_Ahmislan_NunHeels</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_Clergywoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
 				<li>Anneli_Ahmislan_Knight</li>
-				<li>Anneli_Ahmislan_Royalty</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -418,6 +418,7 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -429,6 +430,11 @@
 		<defName>Anneli_Ahmislan_KnightArmorBoots</defName>
 		<description>(Ahmislan)2C_KnightArmorBoots</description>
 		<label>(Ahmislan)2C_KnightArmorBoots</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
 		<graphicData>
 			<texPath>2C/Anneli_Ahmislan_KnightArmorBoots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -453,5 +459,38 @@
 		</stuffCategories>
 	</ThingDef>
 
+<!--Anneli_Ahmislan_RoyalArmorBoots-->
+	<ThingDef ParentName="Anneli_Ahmislan_2C">
+		<defName>Anneli_Ahmislan_RoyalArmorBoots</defName>
+		<description>(Ahmislan)2C_RoyalArmorBoots</description>
+		<label>(Ahmislan)2C_RoyalArmorBoots</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2C/Anneli_Ahmislan_RoyalArmorBoots</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2C/Anneli_Ahmislan_RoyalArmorBoots</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
 
 </Defs>

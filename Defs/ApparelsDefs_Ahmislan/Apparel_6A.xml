@@ -55,7 +55,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -92,7 +92,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -218,6 +218,7 @@
 			<wornGraphicPath>6A/Anneli_Ahmislan_KettleHelmet</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_Militia</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -225,15 +226,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(65,065,070)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(75,070,075)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(100,090,090)</only>
+					<only>(180,175,175)</only>
 				</li>
 			</options>
 		</colorGenerator>

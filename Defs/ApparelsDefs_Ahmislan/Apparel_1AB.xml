@@ -35,21 +35,21 @@
 		</apparel>
 	</ThingDef>
 
-<!--Anneli_Ahmislan_Camisole-->
+<!--Anneli_Ahmislan_CamisoleA-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">
-		<defName>Anneli_Ahmislan_Camisole</defName>
-		<description>(Ahmislan)1AB_Camisole</description>
-		<label>(Ahmislan)1AB_Camisole</label>
+		<defName>Anneli_Ahmislan_CamisoleA</defName>
+		<description>(Ahmislan)1AB_CamisoleA</description>
+		<label>(Ahmislan)1AB_CamisoleA</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.2</NegotiationAbility>
 			<SocialImpact>0.2</SocialImpact>
 		</equippedStatOffsets>
 		<graphicData>
-			<texPath>1AB/Anneli_Ahmislan_Camisole</texPath>
+			<texPath>1AB/Anneli_Ahmislan_CamisoleA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>1AB/Anneli_Ahmislan_Camisole</wornGraphicPath>
+			<wornGraphicPath>1AB/Anneli_Ahmislan_CamisoleA</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_CourtLady</li>
 				<li>Anneli_Ahmislan_Merchant</li>
@@ -61,11 +61,43 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(240,220,225,225)</only>
+					<only>(250,240,240,225)</only>
 				</li>
 			</options>
 		</colorGenerator>
 	</ThingDef>
+
+<!--Anneli_Ahmislan_CamisoleB-->
+	<ThingDef ParentName="Anneli_Ahmislan_1AB">
+		<defName>Anneli_Ahmislan_CamisoleB</defName>
+		<description>(Ahmislan)1AB_CamisoleB</description>
+		<label>(Ahmislan)1AB_CamisoleB</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.2</NegotiationAbility>
+			<SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1AB/Anneli_Ahmislan_CamisoleB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1AB/Anneli_Ahmislan_CamisoleB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 225-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,225)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
 
 <!--Anneli_Ahmislan_NunUnderwear-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">

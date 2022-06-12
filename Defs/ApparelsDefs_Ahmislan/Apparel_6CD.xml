@@ -55,13 +55,14 @@
 				<li>Anneli_Ahmislan_PeasantMan</li>
 				<li>Anneli_Ahmislan_Militia</li>
 				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
 			</tags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240)</only>
 				</li>
 			</options>
 		</colorGenerator>

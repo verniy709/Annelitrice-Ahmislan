@@ -52,11 +52,11 @@
 				<li>Anneli_Ahmislan_Merchant</li>
 			</tags>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -83,11 +83,11 @@
 				<li>Anneli_Ahmislan_Militia</li>
 			</tags>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -116,11 +116,11 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(240,220,225)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>

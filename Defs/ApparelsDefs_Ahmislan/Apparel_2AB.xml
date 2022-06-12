@@ -58,11 +58,11 @@
 				<li>Anneli_Ahmislan_Merchant</li>
 			</tags>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -87,6 +87,7 @@
 			<tags>
 				<li>Anneli_Ahmislan_CourtLady</li>
 				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_Knight</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -198,11 +199,73 @@
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_KnightDress-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_KnightDress</defName>
+		<description>(Ahmislan)2AB_KnightDress</description>
+		<label>(Ahmislan)2AB_KnightDress</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_KnightDress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_KnightDress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(75,070,075)</only>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_RoyalFormal-->
+	<ThingDef ParentName="Anneli_Ahmislan_2AB">
+		<defName>Anneli_Ahmislan_RoyalFormal</defName>
+		<description>(Ahmislan)2AB_RoyalFormal</description>
+		<label>(Ahmislan)2AB_RoyalFormal</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+			<NegotiationAbility>0.2</NegotiationAbility>
+			<SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2AB/Anneli_Ahmislan_RoyalFormal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2AB/Anneli_Ahmislan_RoyalFormal</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(170,030,030,235)</only>
 				</li>
 			</options>
 		</colorGenerator>

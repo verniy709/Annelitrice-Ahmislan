@@ -61,7 +61,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(220,215,210)</only>
+					<only>(250,240,240)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -88,6 +88,7 @@
 				<li>Anneli_Ahmislan_Merchant</li>
 				<li>Anneli_Ahmislan_MercenaryInfantry</li>
 				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Knight</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -95,7 +96,7 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(240,220,225,235)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>
@@ -122,6 +123,7 @@
 				<li>Anneli_Ahmislan_Merchant</li>
 				<li>Anneli_Ahmislan_MercenaryInfantry</li>
 				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Knight</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -129,11 +131,42 @@
 			<options>
 				<li>
 					<weight>10</weight>
-					<only>(240,220,225,235)</only>
+					<only>(250,240,240,235)</only>
 				</li>
 			</options>
 		</colorGenerator>
 	</ThingDef>	
+
+<!--Anneli_Ahmislan_StirrupLeggings-->
+	<ThingDef ParentName="Anneli_Ahmislan_1C">
+		<defName>Anneli_Ahmislan_StirrupLeggings</defName>
+		<description>(Ahmislan)1C_StirrupLeggings</description>
+		<label>(Ahmislan)1C_StirrupLeggings</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1C/Anneli_Ahmislan_StirrupLeggings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Ahmislan_StirrupLeggings</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 225-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>		
 
 <!--Anneli_Ahmislan_NunStockings-->
 	<ThingDef ParentName="Anneli_Ahmislan_1C">

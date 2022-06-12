@@ -1,70 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!-- Ahmislan Shield Base -->
-  
-  <ThingDef Name="AhmislanRemake_BaseShield" ParentName="BaseWeapon" Abstract="True">
-    <techLevel>Medieval</techLevel>
-    <smeltable>true</smeltable>
-    <burnableByRecipe>true</burnableByRecipe>
-    <weaponClasses>
-      <li>Melee</li>
-    </weaponClasses>
-    <thingCategories>
-      <li>Category_Annelitrice_Ahmislan</li>
-    </thingCategories>
-    <thingClass>VFECore.Apparel_Shield</thingClass>
-    <statBases>
-      <WorkToMake>150</WorkToMake>
-      <MaxHitPoints>200</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <Mass>2.0</Mass>
-    </statBases>
-    <recipeMaker>
-      <researchPrerequisite>Smithing</researchPrerequisite>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Tailor</soundWorking>
-      <recipeUsers>
-        <li>Anneli_Ahmislan_Workbench</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-    </recipeMaker>
-    <apparel>
-      <bodyPartGroups>
-        <li>LeftHand</li>
-      </bodyPartGroups>
-      <layers>
-        <li>VFEC_OuterShell</li>
-      </layers>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
-      <careIfDamaged>false</careIfDamaged>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+    <!-- Ahmislan Shield Base -->
+    <ThingDef Name="AhmislanRemake_BaseShield" ParentName="BaseWeapon" Abstract="True">
+        <techLevel>Medieval</techLevel>
+        <smeltable>true</smeltable>
+        <burnableByRecipe>true</burnableByRecipe>
+        <weaponClasses>
+          <li>Melee</li>
+      </weaponClasses>
+      <thingCategories>
+          <li>Category_Annelitrice_Ahmislan</li>
+      </thingCategories>
+      <thingClass>VFECore.Apparel_Shield</thingClass>
+      <statBases>
+          <WorkToMake>150</WorkToMake>
+          <MaxHitPoints>200</MaxHitPoints>
+          <Flammability>1.0</Flammability>
+          <Mass>2.0</Mass>
+      </statBases>
+      <recipeMaker>
+          <researchPrerequisite>Smithing</researchPrerequisite>
+          <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+          <workSkill>Crafting</workSkill>
+          <effectWorking>Smith</effectWorking>
+          <soundWorking>Recipe_Tailor</soundWorking>
+          <recipeUsers>
+            <li>Anneli_Ahmislan_Workbench</li>
+          </recipeUsers>
+          <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      </recipeMaker>
+      <apparel>
+          <bodyPartGroups>
+            <li>LeftHand</li>
+        </bodyPartGroups>
+        <layers>
+            <li>VFEC_OuterShell</li>
+        </layers>
+        <careIfWornByCorpse>false</careIfWornByCorpse>
+        <careIfDamaged>false</careIfDamaged>
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        <useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
     </apparel>
     <inspectorTabs>
       <li>ITab_Art</li>
-    </inspectorTabs>
-    <comps>
+  </inspectorTabs>
+  <comps>
       <li>
         <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
+    </li>
+    <li Class="CompProperties_Art">
         <nameMaker>NamerArtWeaponMelee</nameMaker>
         <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
         <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-      <li>
-            <compClass>CompColorable</compClass>
-     </li>
-    </comps>
-  </ThingDef>
+    </li>
+    <li>
+        <compClass>CompColorable</compClass>
+    </li>
+</comps>
+</ThingDef>
 
 
 
-  <ThingDef ParentName="AhmislanRemake_BaseShield">
+<ThingDef ParentName="AhmislanRemake_BaseShield">
     <defName>Anneli_Ahmislan_WoodenShield</defName>
     <label>(Ahmislan)9_WoodenShield</label>
     <description>(Ahmislan)9_WoodenShield</description>
@@ -75,9 +74,9 @@
         <drawSize>0.85</drawSize>
     </graphicData>
     <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
-        <costStuffCount>15</costStuffCount>
+        <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
     <costList>
         <WoodLog>15</WoodLog>
     </costList>
@@ -151,21 +150,13 @@
         </li>
     </comps>
     <colorGenerator Class="ColorGenerator_Options">
-            <options>
-                <li>
-                    <weight>10</weight>
-                    <only>(65,065,070)</only>
-                </li>
-                <li>
-                    <weight>10</weight>
-                    <only>(75,070,075)</only>
-                </li>
-                <li>
-                    <weight>10</weight>
-                    <only>(100,090,090)</only>
-                </li>
-            </options>
-        </colorGenerator>
+        <options>
+            <li>
+                <weight>10</weight>
+                <only>(180,175,175)</only>
+            </li>
+        </options>
+    </colorGenerator>
 </ThingDef>
 
 </Defs>

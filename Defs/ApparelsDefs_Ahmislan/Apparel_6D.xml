@@ -250,4 +250,73 @@
 		</stuffCategories>
 	</ThingDef>
 
+<!--Anneli_Ahmislan_KnightPauldrons-->
+	<ThingDef ParentName="Anneli_Ahmislan_6D">
+		<defName>Anneli_Ahmislan_KnightPauldrons</defName>
+		<description>(Ahmislan)6D_KnightPauldrons</description>
+		<label>(Ahmislan)6D_KnightPauldrons</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6D/Anneli_Ahmislan_KnightPauldrons</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6D/Anneli_Ahmislan_KnightPauldrons</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>	
+
+<!--Anneli_Ahmislan_RoyalPauldrons-->
+	<ThingDef ParentName="Anneli_Ahmislan_6D">
+		<defName>Anneli_Ahmislan_RoyalPauldrons</defName>
+		<description>(Ahmislan)6D_RoyalPauldrons</description>
+		<label>(Ahmislan)6D_RoyalPauldrons</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6D/Anneli_Ahmislan_RoyalPauldrons</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6D/Anneli_Ahmislan_RoyalPauldrons</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>	
+
+
 </Defs>
