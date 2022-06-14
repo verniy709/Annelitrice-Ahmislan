@@ -3,20 +3,22 @@
 
 	<ThingDef Name="Anneli_Ahmislan_4" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
 		<costStuffCount>100</costStuffCount>
-		<!-- <stuffCategories>
+		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
-		</stuffCategories> -->
+		</stuffCategories>
 		<statBases>
 			<WorkToMake>17500</WorkToMake>
 			<Mass>4.5</Mass>
 			<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>10</EquipDelay>
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>10</ComfyTemperatureMax>
 			<SuppressionPower>0.2</SuppressionPower>
 		</equippedStatOffsets>
 		<apparel>
@@ -71,10 +73,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 	<!--Anneli_Ahmislan_LeatherCorset-->
@@ -118,10 +116,6 @@
 			</options>
 		</colorGenerator>
 		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 </Defs>

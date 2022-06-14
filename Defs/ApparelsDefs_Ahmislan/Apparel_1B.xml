@@ -38,7 +38,7 @@
 <!--Anneli_Ahmislan_TornUnderwearA-->
 	<ThingDef ParentName="Anneli_Ahmislan_1B">
 		<defName>Anneli_Ahmislan_TornUnderwearA</defName>
-		<description>(Ahmislan)1B_TornUnderwearA</description>
+		<description>Dyeable.</description><!-- \nDirty rags. Better than nothing. -->
 		<label>(Ahmislan)1B_TornUnderwearA</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -69,7 +69,7 @@
 <!--Anneli_Ahmislan_TornUnderwearB-->
 	<ThingDef ParentName="Anneli_Ahmislan_1B">
 		<defName>Anneli_Ahmislan_TornUnderwearB</defName>
-		<description>(Ahmislan)1B_TornUnderwearB</description>
+		<description>Dyeable.</description><!-- \nDirty rags. Better than nothing. -->
 		<label>(Ahmislan)1B_TornUnderwearB</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -100,7 +100,7 @@
 <!--Anneli_Ahmislan_Underwear-->
 	<ThingDef ParentName="Anneli_Ahmislan_1B">
 		<defName>Anneli_Ahmislan_Underwear</defName>
-		<description>(Ahmislan)1B_Underwear</description>
+		<description>Dyeable.</description><!-- \nA plain underwear with some ruffles. -->
 		<label>(Ahmislan)1B_Underwear</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.1</NegotiationAbility>

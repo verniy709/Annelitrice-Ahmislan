@@ -38,7 +38,7 @@
 <!--Anneli_Ahmislan_CamisoleA-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">
 		<defName>Anneli_Ahmislan_CamisoleA</defName>
-		<description>(Ahmislan)1AB_CamisoleA</description>
+		<description>Dyeable.</description><!-- \nAn camisole with a lot of lace. Not doing good for a resolution below 512. -->
 		<label>(Ahmislan)1AB_CamisoleA</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.2</NegotiationAbility>
@@ -70,7 +70,7 @@
 <!--Anneli_Ahmislan_CamisoleB-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">
 		<defName>Anneli_Ahmislan_CamisoleB</defName>
-		<description>(Ahmislan)1AB_CamisoleB</description>
+		<description>Dyeable.</description><!-- \nA camisole with some ruffles. More like a swimsuit. -->
 		<label>(Ahmislan)1AB_CamisoleB</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.2</NegotiationAbility>
@@ -102,7 +102,7 @@
 <!--Anneli_Ahmislan_NunUnderwear-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">
 		<defName>Anneli_Ahmislan_NunUnderwear</defName>
-		<description>(Ahmislan)1AB_NunUnderwear</description>
+		<description>Dyeable.</description><!-- \nUnderwear designed for holy purposes. -->
 		<label>(Ahmislan)1AB_NunUnderwear</label>
 		<equippedStatOffsets>
 			<MedicalTendQuality>0.1</MedicalTendQuality>

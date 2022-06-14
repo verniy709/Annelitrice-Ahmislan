@@ -59,7 +59,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -96,7 +95,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -145,7 +143,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -193,7 +190,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -230,7 +226,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -279,7 +274,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -315,6 +309,55 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>	
+
+<!--Anneli_Ahmislan_SoldierHairBand-->
+	<ThingDef ParentName="Anneli_Ahmislan_6A">
+		<defName>Anneli_Ahmislan_SoldierHairBand</defName>
+		<description>(Ahmislan)6A_SoldierHairBand</description>
+		<label>(Ahmislan)6A_SoldierHairBand</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<MeleeHitChance>0.1</MeleeHitChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6A/Anneli_Ahmislan_SoldierHairBand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Ahmislan_SoldierHairBand</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateCommonality>0.5</generateCommonality><!--Less chance-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -364,7 +407,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.75</generateAllowChance><!--Less Spawn-->
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
@@ -406,5 +448,123 @@
 		</stuffCategories>
 	</ThingDef>	
 
+<!--Anneli_Ahmislan_KnightHeaddress-->
+	<ThingDef ParentName="Anneli_Ahmislan_6A">
+		<defName>Anneli_Ahmislan_KnightHeaddress</defName>
+		<description>(Ahmislan)6A_KnightHeaddress</description>
+		<label>(Ahmislan)6A_KnightHeaddress</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6A/Anneli_Ahmislan_KnightHeaddress</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Ahmislan_KnightHeaddress</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
+			<hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>
+			<hatRenderedAboveBody>true</hatRenderedAboveBody>
+			<hatRenderedBehindHead>true</hatRenderedBehindHead><!--Behind Head-->
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+	</ThingDef>	
+
+<!--Anneli_Ahmislan_Crown-->
+	<ThingDef ParentName="Anneli_Ahmislan_6A">
+		<defName>Anneli_Ahmislan_Crown</defName>
+		<description>(Ahmislan)6A_Crown</description>
+		<label>(Ahmislan)6A_Crown</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6A/Anneli_Ahmislan_Crown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Ahmislan_Crown</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>	
+
+<!--Anneli_Ahmislan_LittleCrown-->
+	<ThingDef ParentName="Anneli_Ahmislan_6A">
+		<defName>Anneli_Ahmislan_LittleCrown</defName>
+		<description>(Ahmislan)6A_LittleCrown</description>
+		<label>(Ahmislan)6A_LittleCrown</label>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6A/Anneli_Ahmislan_LittleCrown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6A/Anneli_Ahmislan_LittleCrown</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>	
 
 </Defs>

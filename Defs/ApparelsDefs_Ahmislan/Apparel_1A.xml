@@ -40,7 +40,7 @@
 <!--Anneli_Ahmislan_TornBraA-->
 	<ThingDef ParentName="Anneli_Ahmislan_1A">
 		<defName>Anneli_Ahmislan_TornBraA</defName>
-		<description>(Ahmislan)1A_TornBraA</description>
+		<description>Dyeable.</description><!-- \nDirty rags. Better than nothing. -->
 		<label>(Ahmislan)1A_TornBraA</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -71,7 +71,7 @@
 <!--Anneli_Ahmislan_TornBraB-->
 	<ThingDef ParentName="Anneli_Ahmislan_1A">
 		<defName>Anneli_Ahmislan_TornBraB</defName>
-		<description>(Ahmislan)1A_TornBraB</description>
+		<description>Dyeable.</description><!-- \nDirty rags. Better than nothing. -->
 		<label>(Ahmislan)1A_TornBraB</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -102,7 +102,7 @@
 <!--Anneli_Ahmislan_ChestWrap-->
 	<ThingDef ParentName="Anneli_Ahmislan_1A">
 		<defName>Anneli_Ahmislan_ChestWrap</defName>
-		<description>(Ahmislan)1A_ChestWrap</description>
+		<description>Dyeable.</description><!-- \nA plain chest wrap with some ruffles. -->
 		<label>(Ahmislan)1A_ChestWrap</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.1</NegotiationAbility>

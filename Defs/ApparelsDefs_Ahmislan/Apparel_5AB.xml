@@ -11,8 +11,8 @@
 			<WorkToMake>4000</WorkToMake>
 			<Mass>1.0</Mass>
 			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.8</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>2</EquipDelay>
 			<Flammability>0.5</Flammability>
 		</statBases>
@@ -108,6 +108,33 @@
 				<li>
 					<weight>10</weight>
 					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+<!--Anneli_Ahmislan_RoyalCloak-->
+	<ThingDef ParentName="Anneli_Ahmislan_5AB">
+		<defName>Anneli_Ahmislan_RoyalCloak</defName>
+		<description>(Ahmislan)5AB_RoyalCloak</description>
+		<label>(Ahmislan)5AB_RoyalCloak</label>
+		<graphicData>
+			<texPath>5AB/Anneli_Ahmislan_RoyalCloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>5AB/Anneli_Ahmislan_RoyalCloak</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(170,030,030)</only>
 				</li>
 			</options>
 		</colorGenerator>

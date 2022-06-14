@@ -428,7 +428,7 @@
 <!--Anneli_Ahmislan_KnightArmorBoots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C">
 		<defName>Anneli_Ahmislan_KnightArmorBoots</defName>
-		<description>(Ahmislan)2C_KnightArmorBoots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_KnightArmorBoots</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -462,7 +462,7 @@
 <!--Anneli_Ahmislan_RoyalArmorBoots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C">
 		<defName>Anneli_Ahmislan_RoyalArmorBoots</defName>
-		<description>(Ahmislan)2C_RoyalArmorBoots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_RoyalArmorBoots</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>

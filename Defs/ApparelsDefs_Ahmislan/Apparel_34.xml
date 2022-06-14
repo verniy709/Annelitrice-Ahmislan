@@ -11,13 +11,14 @@
 			<WorkToMake>22000</WorkToMake>
 			<Mass>10</Mass>
 			<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1.2</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>15</EquipDelay>
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
-			<ComfyTemperatureMin>-30</ComfyTemperatureMin> 
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>15</ComfyTemperatureMax>
 			<SuppressionPower>0.2</SuppressionPower>
 			<PainShockThreshold>0.1</PainShockThreshold>
 			<MeleeHitChance>0.1</MeleeHitChance>

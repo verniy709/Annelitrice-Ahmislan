@@ -34,7 +34,7 @@
 <!--Anneli_Ahmislan_PeasantBlouseA-->
 	<ThingDef ParentName="Anneli_Ahmislan_2A">
 		<defName>Anneli_Ahmislan_PeasantBlouseA</defName>
-		<description>(Ahmislan)2A_PeasantBlouseA</description>
+		<description>Dyeable.</description><!-- \nA fashionable and affordable top. -->
 		<label>(Ahmislan)2A_PeasantBlouseA</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -65,7 +65,7 @@
 <!--Anneli_Ahmislan_PeasantBlouseB-->
 	<ThingDef ParentName="Anneli_Ahmislan_2A">
 		<defName>Anneli_Ahmislan_PeasantBlouseB</defName>
-		<description>(Ahmislan)2A_PeasantBlouseB</description>
+		<description>Dyeable.</description><!-- \nA durable and affordable top. -->
 		<label>(Ahmislan)2A_PeasantBlouseB</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -96,7 +96,7 @@
 <!--Anneli_Ahmislan_CraftsShirt-->
 	<ThingDef ParentName="Anneli_Ahmislan_2A">
 		<defName>Anneli_Ahmislan_CraftsShirt</defName>
-		<description>(Ahmislan)2A_CraftsShirt</description>
+		<description>Dyeable.</description><!-- \nA tie-front shirt. Not quite medieval. -->
 		<label>(Ahmislan)2A_CraftsShirt</label>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>

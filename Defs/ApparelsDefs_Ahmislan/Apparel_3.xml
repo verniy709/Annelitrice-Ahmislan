@@ -11,14 +11,11 @@
 			<WorkToMake>8000</WorkToMake>
 			<Mass>2.0</Mass>
 			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>4</EquipDelay>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<equippedStatOffsets>
-			<ComfyTemperatureMin>-6</ComfyTemperatureMin> 
-		</equippedStatOffsets>
 		<apparel>
 			<shellCoversHead>false</shellCoversHead>
 			<shellRenderedBehindHead>true</shellRenderedBehindHead><!--Shell layer visual glitch-->
@@ -207,7 +204,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.3</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 <!--Anneli_Ahmislan_PeasantRobeB-->
@@ -253,7 +250,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.3</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 <!--Anneli_Ahmislan_PeasantTunic-->

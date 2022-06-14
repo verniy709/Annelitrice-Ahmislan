@@ -38,7 +38,7 @@
 <!--Anneli_Ahmislan_PeasantChemise-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_PeasantChemise</defName>
-		<description>(Ahmislan)2AB_PeasantChemise</description>
+		<description>Dyeable.</description><!-- \nA typical and affordable dress. -->
 		<label>(Ahmislan)2AB_PeasantChemise</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -71,7 +71,7 @@
 <!--Anneli_Ahmislan_MaidDress-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_MaidDress</defName>
-		<description>(Ahmislan)2AB_MaidDress</description>
+		<description>Dyeable.</description><!-- \nA plain dress with some ruffles. -->
 		<label>(Ahmislan)2AB_MaidDress</label>
 		<equippedStatOffsets>
 			<TrainAnimalChance>0.1</TrainAnimalChance>
@@ -104,7 +104,7 @@
 <!--Anneli_Ahmislan_ArcherDress-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_ArcherDress</defName>
-		<description>(Ahmislan)2AB_ArcherDress</description>
+		<description>Dyeable.</description><!-- \nA strapless dress with some ruffles. -->
 		<label>(Ahmislan)2AB_ArcherDress</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.1</PainShockThreshold>
@@ -137,7 +137,7 @@
 <!--Anneli_Ahmislan_SoldierUniform-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_SoldierUniform</defName>
-		<description>(Ahmislan)2AB_SoldierUniform</description>
+		<description>Dyeable.</description><!-- \nA typical attire of medieval soldiers, perfect for training and combat. -->
 		<label>(Ahmislan)2AB_SoldierUniform</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.1</PainShockThreshold>
@@ -181,7 +181,7 @@
 <!--Anneli_Ahmislan_NunDress-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_NunDress</defName>
-		<description>(Ahmislan)2AB_NunDress</description>
+		<description>Dyeable.</description><!-- \nA historically accurate dress of nuns. -->
 		<label>(Ahmislan)2AB_NunDress</label>
 		<equippedStatOffsets>
 			<MedicalTendQuality>0.1</MedicalTendQuality>
@@ -212,7 +212,7 @@
 <!--Anneli_Ahmislan_KnightDress-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_KnightDress</defName>
-		<description>(Ahmislan)2AB_KnightDress</description>
+		<description>Dyeable.</description><!-- \nA soft and elegant dress with a ribbon. -->
 		<label>(Ahmislan)2AB_KnightDress</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -243,7 +243,7 @@
 <!--Anneli_Ahmislan_RoyalFormal-->
 	<ThingDef ParentName="Anneli_Ahmislan_2AB">
 		<defName>Anneli_Ahmislan_RoyalFormal</defName>
-		<description>(Ahmislan)2AB_RoyalFormal</description>
+		<description>Dyeable.</description><!-- \nAn evening gown of the high-class, graced by gold fringe. -->
 		<label>(Ahmislan)2AB_RoyalFormal</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>

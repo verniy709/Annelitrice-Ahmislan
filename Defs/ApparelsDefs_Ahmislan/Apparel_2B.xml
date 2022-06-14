@@ -35,7 +35,7 @@
 <!--Anneli_Ahmislan_PeasantPants-->
 	<ThingDef ParentName="Anneli_Ahmislan_2B">
 		<defName>Anneli_Ahmislan_PeasantPants</defName>
-		<description>(Ahmislan)2B_PeasantPants</description>
+		<description>Dyeable.</description><!-- \nDurable and affordable shorts. -->
 		<label>(Ahmislan)2B_PeasantPants</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
