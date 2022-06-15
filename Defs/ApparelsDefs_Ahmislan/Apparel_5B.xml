@@ -55,6 +55,7 @@
 				<li>Anneli_Ahmislan_PeasantWoman</li>
 				<li>Anneli_Ahmislan_Militia</li>
 			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -99,6 +100,7 @@
 				<li>Anneli_Ahmislan_Merchant</li>
 				<li>Anneli_Ahmislan_MercenaryArcher</li>
 			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>

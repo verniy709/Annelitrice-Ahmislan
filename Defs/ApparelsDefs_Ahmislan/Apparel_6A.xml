@@ -468,9 +468,9 @@
 				<li>Anneli_Ahmislan_Knight</li>
 			</tags>
 			<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
-			<hatRenderedFrontOfFace>false</hatRenderedFrontOfFace>
+			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<hatRenderedAboveBody>true</hatRenderedAboveBody>
-			<hatRenderedBehindHead>true</hatRenderedBehindHead><!--Behind Head-->
+			<hatRenderedBehindHead>false</hatRenderedBehindHead><!--Behind Head-->
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">

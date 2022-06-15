@@ -114,7 +114,7 @@
                     <max>200</max>
                 </shieldMoney>
                 <shieldTags>
-                    <li>AhmislanRemake_WoodenShield</li>
+                    <li>Ahmislan_WoodenShield</li>
                 </shieldTags>
             </li>
         </modExtensions>
@@ -184,6 +184,17 @@
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
 		<weaponMoney>100~750</weaponMoney>
+		<modExtensions Inherit="False">
+            <li Class="VFECore.PawnKindDefExtension">
+                <shieldMoney>
+                    <min>50</min>
+                    <max>500</max>
+                </shieldMoney>
+                <shieldTags>
+                    <li>Ahmislan_Shield</li>
+                </shieldTags>
+            </li>
+        </modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
@@ -231,6 +242,17 @@
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
 		<weaponMoney>100~750</weaponMoney>
+		<modExtensions Inherit="False">
+            <li Class="VFECore.PawnKindDefExtension">
+                <shieldMoney>
+                    <min>100</min>
+                    <max>750</max>
+                </shieldMoney>
+                <shieldTags>
+                    <li>Ahmislan_KnightShield</li>
+                </shieldTags>
+            </li>
+        </modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
