@@ -3,18 +3,10 @@
 
 	<ThingDef Name="Anneli_Ahmislan_6A" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
 		<costStuffCount>20</costStuffCount>
-		<!-- <stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories> -->
 		<statBases>
-			<WorkToMake>2000</WorkToMake>
-			<Mass>0.2</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+			<WorkToMake>200</WorkToMake>
+			<Mass>0.5</Mass>
 			<EquipDelay>1</EquipDelay>
-			<Flammability>0.5</Flammability>
 		</statBases>
 		<apparel>
 			<bodyPartGroups>
@@ -30,8 +22,33 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef Name="Anneli_Ahmislan_6A_NonMetal" ParentName="Anneli_Ahmislan_6A"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_6A_Metal" ParentName="Anneli_Ahmislan_6A"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
 <!--Anneli_Ahmislan_Bonnet-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_Bonnet</defName>
 		<description>(Ahmislan)6A_Bonnet</description>
 		<label>(Ahmislan)6A_Bonnet</label>
@@ -59,14 +76,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 	
 <!--Anneli_Ahmislan_Hood-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_Hood</defName>
 		<description>(Ahmislan)6A_Hood</description>
 		<label>(Ahmislan)6A_Hood</label>
@@ -95,14 +108,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Ahmislan_StrawHat-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_StrawHat</defName>
 		<description>(Ahmislan)6A_StrawHat</description>
 		<label>(Ahmislan)6A_StrawHat</label>
@@ -143,14 +152,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_HunterHat-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_HunterHat</defName>
 		<description>(Ahmislan)6A_HunterHat</description>
 		<label>(Ahmislan)6A_HunterHat</label>
@@ -190,14 +195,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_KettleHelmet-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_Metal">
 		<defName>Anneli_Ahmislan_KettleHelmet</defName>
 		<description>(Ahmislan)6A_KettleHelmet</description>
 		<label>(Ahmislan)6A_KettleHelmet</label>
@@ -226,13 +227,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>		
 
 <!--Anneli_Ahmislan_CraftsHat-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_CraftsHat</defName>
 		<description>(Ahmislan)6A_CraftsHat</description>
 		<label>(Ahmislan)6A_CraftsHat</label>
@@ -274,14 +272,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>		
 
 <!--Anneli_Ahmislan_MaidHairband-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_MaidHairband</defName>
 		<description>(Ahmislan)6A_MaidHairband</description>
 		<label>(Ahmislan)6A_MaidHairband</label>
@@ -309,14 +303,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_SoldierHairBand-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_SoldierHairBand</defName>
 		<description>(Ahmislan)6A_SoldierHairBand</description>
 		<label>(Ahmislan)6A_SoldierHairBand</label>
@@ -365,7 +355,7 @@
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_ArcherHat-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_ArcherHat</defName>
 		<description>(Ahmislan)6A_ArcherHat</description>
 		<label>(Ahmislan)6A_ArcherHat</label>
@@ -407,14 +397,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_NunHabit-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_NunHabit</defName>
 		<description>(Ahmislan)6A_NunHabit</description>
 		<label>(Ahmislan)6A_NunHabit</label>
@@ -442,14 +428,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_KnightHeaddress-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_KnightHeaddress</defName>
 		<description>(Ahmislan)6A_KnightHeaddress</description>
 		<label>(Ahmislan)6A_KnightHeaddress</label>
@@ -493,14 +475,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_Crown-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_Metal">
 		<defName>Anneli_Ahmislan_Crown</defName>
 		<description>(Ahmislan)6A_Crown</description>
 		<label>(Ahmislan)6A_Crown</label>
@@ -528,13 +506,10 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_LittleCrown-->
-	<ThingDef ParentName="Anneli_Ahmislan_6A">
+	<ThingDef ParentName="Anneli_Ahmislan_6A_Metal">
 		<defName>Anneli_Ahmislan_LittleCrown</defName>
 		<description>(Ahmislan)6A_LittleCrown</description>
 		<label>(Ahmislan)6A_LittleCrown</label>
@@ -562,9 +537,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>	
 
 </Defs>

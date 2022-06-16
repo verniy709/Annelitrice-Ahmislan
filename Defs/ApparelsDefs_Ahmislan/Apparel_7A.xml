@@ -58,12 +58,12 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>18000</WorkToMake>
-			<Mass>4</Mass>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>2</Mass>
 			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>4</EquipDelay>
+			<EquipDelay>1</EquipDelay>
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
@@ -148,7 +148,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.1</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 	<!--Anneli_Ahmislan_CrystalSwordWing-->
@@ -176,7 +176,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
+		<generateAllowChance>0.1</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 </Defs>

@@ -2,17 +2,17 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Ahmislan_6C" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
-		<costStuffCount>20</costStuffCount>
+		<costStuffCount>10</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
 			<li>Fabric</li>
 		</stuffCategories>
 		<statBases>
-			<WorkToMake>3000</WorkToMake>
-			<Mass>0.15</Mass>
+			<WorkToMake>100</WorkToMake>
+			<Mass>0.1</Mass>
 			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 			<Flammability>0.5</Flammability>
 		</statBases>

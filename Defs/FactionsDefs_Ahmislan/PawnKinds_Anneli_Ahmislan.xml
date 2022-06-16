@@ -227,6 +227,17 @@
 			<li>MedievalMeleeAdvanced</li>
 		</weaponTags>
 		<weaponMoney>100~750</weaponMoney>
+		<modExtensions Inherit="False">
+            <li Class="VFECore.PawnKindDefExtension">
+                <shieldMoney>
+                    <min>100</min>
+                    <max>750</max>
+                </shieldMoney>
+                <shieldTags>
+                    <li>Ahmislan_HolyWarBanner</li>
+                </shieldTags>
+            </li>
+        </modExtensions>
 	</PawnKindDef>
 
 	<PawnKindDef ParentName="Anneli_Ahmislan_KindBase">
@@ -250,6 +261,7 @@
                 </shieldMoney>
                 <shieldTags>
                     <li>Ahmislan_KnightShield</li>
+                    <li>Ahmislan_WarFlag</li>
                 </shieldTags>
             </li>
         </modExtensions>

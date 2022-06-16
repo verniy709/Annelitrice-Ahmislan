@@ -2,18 +2,17 @@
 <Defs>
 
 	<ThingDef Name="Anneli_Ahmislan_34" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
-		<costStuffCount>150</costStuffCount>
-		<!-- <stuffCategories>
-			<li>Leathery</li>
-			<li>Fabric</li>
-		</stuffCategories> -->
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
 		<statBases>
-			<WorkToMake>22000</WorkToMake>
-			<Mass>10</Mass>
-			<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>1.2</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>15</EquipDelay>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>4</Mass>
+			<StuffEffectMultiplierArmor>0.90</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.90</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
 			<Flammability>0.15</Flammability>
 		</statBases>
 		<equippedStatOffsets>
@@ -67,9 +66,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Ahmislan_SoldierArmorB-->
@@ -96,9 +92,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Ahmislan_SoldierArmorC-->
@@ -125,9 +118,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Ahmislan_KnightArmorA-->
@@ -154,9 +144,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>
 	
 <!--Anneli_Ahmislan_KnightArmorB-->
@@ -183,9 +170,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>
 
 <!--Anneli_Ahmislan_KnightArmorC-->
@@ -212,9 +196,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_RoyalArmorA-->
@@ -241,9 +222,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_RoyalArmorB-->
@@ -270,9 +248,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>	
 
 <!--Anneli_Ahmislan_RoyalArmorC-->
@@ -299,9 +274,6 @@
 				</li>
 			</options>
 		</colorGenerator>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 	</ThingDef>	
 			
 </Defs>

@@ -3,17 +3,10 @@
 
 	<ThingDef Name="Anneli_Ahmislan_6B" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
 		<costStuffCount>10</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<statBases>
-			<WorkToMake>1000</WorkToMake>
-			<Mass>0.1</Mass>
-			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<WorkToMake>100</WorkToMake>
+			<Mass>0.2</Mass>
 			<EquipDelay>1</EquipDelay>
-			<Flammability>0.5</Flammability>
 		</statBases>
 		<apparel>
 			<forceRenderUnderHair>true</forceRenderUnderHair>
@@ -29,14 +22,39 @@
 		</apparel>
 	</ThingDef>
 
-<!--Anneli_Ahmislan_Monocle-->
-	<ThingDef ParentName="Anneli_Ahmislan_6B">
+	<ThingDef Name="Anneli_Ahmislan_6B_NonMetal" ParentName="Anneli_Ahmislan_6B"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_6B_Metal" ParentName="Anneli_Ahmislan_6B"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Monocle-->
+	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
 		<defName>Anneli_Ahmislan_Monocle</defName>
 		<description>(Ahmislan)6B_Monocle</description>
 		<label>(Ahmislan)6B_Monocle</label>
 		<equippedStatOffsets>
-			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
-			<SocialImpact>0.1</SocialImpact>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
 		</equippedStatOffsets>
 		<graphicData>
 			<texPath>6B/Anneli_Ahmislan_Monocle</texPath>
@@ -67,13 +85,13 @@
 		<generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
-<!--Anneli_Ahmislan_Mask-->
-	<ThingDef ParentName="Anneli_Ahmislan_6B">
+	<!--Anneli_Ahmislan_Mask-->
+	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
 		<defName>Anneli_Ahmislan_Mask</defName>
 		<description>(Ahmislan)6B_Mask</description>
 		<label>(Ahmislan)6B_Mask</label>
 		<equippedStatOffsets>
-			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<NegotiationAbility>0.1</NegotiationAbility>
 			<SocialImpact>0.1</SocialImpact>
 		</equippedStatOffsets>
 		<graphicData>

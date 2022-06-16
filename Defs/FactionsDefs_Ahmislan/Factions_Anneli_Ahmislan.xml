@@ -66,7 +66,7 @@
 			<!-- Levy-->
 			<li>
 				<kindDef>Combat</kindDef>
-				<commonality>60</commonality>
+				<commonality>70</commonality>
 				<options>
 					<Anneli_Ahmislan_Vagrant>2</Anneli_Ahmislan_Vagrant>
 					<Anneli_Ahmislan_PeasantMan>4</Anneli_Ahmislan_PeasantMan>
@@ -75,20 +75,20 @@
 					<Anneli_Ahmislan_MercenaryInfantry>6</Anneli_Ahmislan_MercenaryInfantry>
 					<Anneli_Ahmislan_MercenaryArcher>4</Anneli_Ahmislan_MercenaryArcher>
 					<Anneli_Ahmislan_Clergywoman>1</Anneli_Ahmislan_Clergywoman>
-					<Anneli_Ahmislan_Knight>1</Anneli_Ahmislan_Knight>
+					<Anneli_Ahmislan_Knight>2</Anneli_Ahmislan_Knight>
 				</options>
 			</li>
 			<!-- Chivalric Order-->
 			<li>
 				<kindDef>Combat</kindDef>
-				<commonality>40</commonality>
+				<commonality>30</commonality>
 				<options>
 					<Anneli_Ahmislan_Militia>4</Anneli_Ahmislan_Militia>
 					<Anneli_Ahmislan_Craftswoman>1</Anneli_Ahmislan_Craftswoman>
 					<Anneli_Ahmislan_CourtLady>2</Anneli_Ahmislan_CourtLady>
 					<Anneli_Ahmislan_MercenaryInfantry>6</Anneli_Ahmislan_MercenaryInfantry>
 					<Anneli_Ahmislan_MercenaryArcher>4</Anneli_Ahmislan_MercenaryArcher>
-					<Anneli_Ahmislan_Clergywoman>2</Anneli_Ahmislan_Clergywoman>
+					<Anneli_Ahmislan_Clergywoman>1</Anneli_Ahmislan_Clergywoman>
 					<Anneli_Ahmislan_Knight>4</Anneli_Ahmislan_Knight>
 					<Anneli_Ahmislan_Royalty>1</Anneli_Ahmislan_Royalty>
 				</options>

@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+    <!--Anneli_Ahmislan_Courage_Hediff-->
+    <HediffDef>
+        <defName>Anneli_Ahmislan_Courage</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>inspired by war flag</label>
+        <labelNoun>courage</labelNoun>
+        <description>Increase move speed, melee hit chance, melee dodge chance, shooting accuracy and firing rate.</description>
+        <defaultLabelColor>(170,030,030)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <makesSickThought>false</makesSickThought>
+        <tendable>false</tendable>
+        <makesAlert>false</makesAlert>
+        <maxSeverity>1.0</maxSeverity>
+        <isBad>false</isBad>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-8.0</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.25</MoveSpeed>
+                    <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.1</AimingDelayFactor>
+                    <MeleeHitChance>0.25</MeleeHitChance>
+                    <MeleeDodgeChance>0.25</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
     <!--Anneli_Ahmislan_Resilience_Hediff-->
     <HediffDef>
         <defName>Anneli_Ahmislan_Resilience</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>inspired by holy war banner</label>
         <labelNoun>resilience</labelNoun>
-        <description>Increase defense and pain shock threshold. Decrease hunger rate.</description>
+        <description>Increase defense, healing factor, immunity gain speed and pain shock threshold. Decrease hunger rate.</description>
         <defaultLabelColor>(255,200,145)</defaultLabelColor>
         <scenarioCanAdd>false</scenarioCanAdd>
         <makesSickThought>false</makesSickThought>
@@ -26,6 +59,8 @@
                 <painFactor>0.85</painFactor>
                 <hungerRateFactor>0.85</hungerRateFactor>
                 <statOffsets>
+                    <ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+                    <InjuryHealingFactor>0.05</InjuryHealingFactor>
                     <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
                     <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
                     <ArmorRating_Heat>0.15</ArmorRating_Heat>
@@ -49,40 +84,36 @@
             <li>Leathery</li>
             <li>Fabric</li>
         </stuffCategories>
-        <costStuffCount>50</costStuffCount>
+        <costStuffCount>20</costStuffCount>
         <costList>
-            <WoodLog>15</WoodLog>
+            <WoodLog>10</WoodLog>
         </costList>
         <statBases>
             <MaxHitPoints>150</MaxHitPoints>
-            <Flammability>1.0</Flammability>
-            <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.25</ArmorRating_Heat>
-            <WorkToMake>200</WorkToMake>
+            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.05</ArmorRating_Heat>
             <Mass>2.0</Mass>
+            <Flammability>0.5</Flammability>
         </statBases>
-        <equippedStatOffsets>
-            <MoveSpeed>-0.15</MoveSpeed>
-        </equippedStatOffsets>
         <tickerType>Normal</tickerType><!--tickerType-->
         <tools>
             <li>
-                <label>base</label>
-                <capacities>
-                    <li>Poke</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>2</cooldownTime>
-            </li>
-            <li>
-                <label>centre</label>
-                <labelUsedInLogging>false</labelUsedInLogging>
+                <label>shaft</label>
                 <capacities>
                     <li>Blunt</li>
+                    <li>Poke</li>
                 </capacities>
-                <power>9</power>
-                <cooldownTime>2</cooldownTime>
+                <power>12</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2.0</cooldownTime>
             </li>
         </tools>
         <comps>
@@ -110,14 +141,14 @@
                         <behind>true</behind>
                     </northDefault>
                     <east>
-                        <offset>(0.15, 0, 0.89)</offset>
+                        <offset>(0.05, 0, 0.89)</offset>
                         <behind>true</behind>
                     </east>
                     <south>
                         <offset>(0.29, -0.06, 0.865)</offset>
                     </south>
                     <west>
-                        <offset>(-0.15, 0, 0.865)</offset>
+                        <offset>(-0.05, 0, 0.865)</offset>
                     </west>
                 </offHandHoldOffset>
             </li>
@@ -135,6 +166,119 @@
                 </li>
             </options>
         </colorGenerator>
+        <generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
+    </ThingDef>
+
+    <!--Anneli_Ahmislan_WarFlag-->
+    <ThingDef ParentName="Ahmislan_BaseShield">
+        <defName>Anneli_Ahmislan_WarFlag</defName>
+        <label>(Ahmislan)9_WarFlag</label>
+        <description>(Ahmislan)9_WarFlag</description>
+        <graphicData>
+            <texPath>9/Anneli_Ahmislan_WarFlag</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <stuffCategories>
+            <li>Leathery</li>
+            <li>Fabric</li>
+        </stuffCategories>
+        <costStuffCount>20</costStuffCount>
+        <costList>
+            <WoodLog>10</WoodLog>
+        </costList>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.05</ArmorRating_Heat>
+            <Mass>2.0</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType><!--tickerType-->
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>1.8</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2.0</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="VFECore.CompProperties_Shield">
+                <shieldTags>
+                    <li>Ahmislan_WarFlag</li>
+                </shieldTags>
+                <useDeflectMetalEffect>false</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                    <li>Legs</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>9/Anneli_Ahmislan_WarFlag</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
+                    <drawSize>2.70</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(-0.23, 0, 0.89)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(0.05, 0, 0.89)</offset>
+                        <behind>true</behind>
+                    </east>
+                    <south>
+                        <offset>(0.29, -0.06, 0.865)</offset>
+                    </south>
+                    <west>
+                        <offset>(-0.05, 0, 0.865)</offset>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+            <!-- <li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Ahmislan_Resilience</hediffDef>        
+                <severityIncrease>0.2</severityIncrease>  
+                <radius>15</radius>                         
+            </li> -->
+        </comps>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>10</weight>
+                    <only>(80,100,120)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>(140,060,055)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>(65,065,070)</only>
+                </li>
+                <li>
+                    <weight>10</weight>
+                    <only>(120,130,115)</only>
+                </li>
+            </options>
+        </colorGenerator>
+        <generateCommonality>0.25</generateCommonality><!--Less chance-->
     </ThingDef>
 
 </Defs>
