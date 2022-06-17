@@ -64,7 +64,7 @@
     <ThingDef ParentName="Ahmislan_BaseShield">
         <defName>Anneli_Ahmislan_WoodenShield</defName>
         <label>(Ahmislan)9_WoodenShield</label>
-        <description>(Ahmislan)9_WoodenShield</description>
+        <description>Dyeable. But the color of shields has a bug. To get the colors you want, you might need to change colorGenerator in the 9-Shields defs.</description>
         <graphicData>
             <texPath>9/Anneli_Ahmislan_WoodenShield</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -155,7 +155,7 @@
     <ThingDef ParentName="Ahmislan_BaseShield">
         <defName>Anneli_Ahmislan_Shield</defName>
         <label>(Ahmislan)9_Shield</label>
-        <description>(Ahmislan)9_Shield</description>
+        <description>Dyeable. But the color of shields has a bug. To get the colors you want, you might need to change colorGenerator in the 9-Shields defs.</description>
         <graphicData>
             <texPath>9/Anneli_Ahmislan_Shield</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -261,7 +261,7 @@
     <ThingDef ParentName="Ahmislan_BaseShield">
         <defName>Anneli_Ahmislan_KnightShield</defName>
         <label>(Ahmislan)9_KnightShield</label>
-        <description>(Ahmislan)9_KnightShield</description>
+        <description>Dyeable. But the color of shields has a bug. To get the colors you want, you might need to change colorGenerator in the 9-Shields defs.</description>
         <graphicData>
             <texPath>9/Anneli_Ahmislan_KnightShield</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -357,7 +357,7 @@
                 </li>
                 <li>
                     <weight>10</weight>
-                    <only>(180,175,175)</only>
+                    <only>(250,240,240)</only>
                 </li>
             </options>
         </colorGenerator>

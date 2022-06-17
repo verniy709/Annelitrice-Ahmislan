@@ -37,7 +37,7 @@
 <!--Anneli_Ahmislan_PeasantApron-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_PeasantApron</defName>
-		<description>(Ahmislan)3_PeasantApron</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_PeasantApron</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -80,7 +80,7 @@
 <!--Anneli_Ahmislan_PeasantKirtleA-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_PeasantKirtleA</defName>
-		<description>(Ahmislan)3_PeasantKirtleA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_PeasantKirtleA</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -122,7 +122,7 @@
 <!--Anneli_Ahmislan_PeasantKirtleB-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_PeasantKirtleB</defName>
-		<description>(Ahmislan)3_PeasantKirtleB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_PeasantKirtleB</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -164,7 +164,7 @@
 <!--Anneli_Ahmislan_PeasantRobeA-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_PeasantRobeA</defName>
-		<description>(Ahmislan)3_PeasantRobeA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_PeasantRobeA</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -210,7 +210,7 @@
 <!--Anneli_Ahmislan_PeasantRobeB-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_PeasantRobeB</defName>
-		<description>(Ahmislan)3_PeasantRobeB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_PeasantRobeB</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -255,7 +255,7 @@
 <!--Anneli_Ahmislan_PeasantTunic-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_PeasantTunic</defName>
-		<description>(Ahmislan)3_PeasantTunic</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_PeasantTunic</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -298,7 +298,7 @@
 <!--Anneli_Ahmislan_CraftsVest-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_CraftsVest</defName>
-		<description>(Ahmislan)3_CraftsVest</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_CraftsVest</label>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
@@ -343,7 +343,7 @@
 <!--Anneli_Ahmislan_MaidApron-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_MaidApron</defName>
-		<description>(Ahmislan)3_MaidApron</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_MaidApron</label>
 		<equippedStatOffsets>
 			<TrainAnimalChance>0.1</TrainAnimalChance>
@@ -374,7 +374,7 @@
 <!--Anneli_Ahmislan_ArcherJacket-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_ArcherJacket</defName>
-		<description>(Ahmislan)3_ArcherJacket</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_ArcherJacket</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.1</PainShockThreshold>
@@ -418,7 +418,7 @@
 <!--Anneli_Ahmislan_NunCassockA-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_NunCassockA</defName>
-		<description>(Ahmislan)3_NunCassockA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_NunCassockA</label>
 		<equippedStatOffsets>
 			<MedicalTendQuality>0.1</MedicalTendQuality>
@@ -449,7 +449,7 @@
 <!--Anneli_Ahmislan_NunCassockB-->
 	<ThingDef ParentName="Anneli_Ahmislan_3">
 		<defName>Anneli_Ahmislan_NunCassockB</defName>
-		<description>(Ahmislan)3_NunCassockB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)3_NunCassockB</label>
 		<equippedStatOffsets>
 			<MedicalTendQuality>0.1</MedicalTendQuality>

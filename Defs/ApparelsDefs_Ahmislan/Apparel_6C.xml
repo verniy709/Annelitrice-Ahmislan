@@ -39,7 +39,7 @@
 <!--Anneli_Ahmislan_DesertScarf-->
 	<ThingDef ParentName="Anneli_Ahmislan_6C">
 		<defName>Anneli_Ahmislan_DesertScarf</defName>
-		<description>(Ahmislan)6C_DesertScarf</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6C_DesertScarf</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -74,7 +74,7 @@
 <!--Anneli_Ahmislan_Veil-->
 	<ThingDef ParentName="Anneli_Ahmislan_6C">
 		<defName>Anneli_Ahmislan_Veil</defName>
-		<description>(Ahmislan)6C_Veil</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6C_Veil</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.1</NegotiationAbility>

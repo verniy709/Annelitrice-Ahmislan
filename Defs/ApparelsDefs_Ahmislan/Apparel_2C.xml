@@ -56,7 +56,7 @@
 	<!--Anneli_Ahmislan_MoccasinsA-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_MoccasinsA</defName>
-		<description>(Ahmislan)2C_MoccasinsA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_MoccasinsA</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -102,7 +102,7 @@
 	<!--Anneli_Ahmislan_MoccasinsB-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_MoccasinsB</defName>
-		<description>(Ahmislan)2C_MoccasinsB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_MoccasinsB</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -150,7 +150,7 @@
 	<!--Anneli_Ahmislan_PeasantBoots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_PeasantBoots</defName>
-		<description>(Ahmislan)2C_PeasantBoots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_PeasantBoots</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -199,7 +199,7 @@
 	<!--Anneli_Ahmislan_Boots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_Boots</defName>
-		<description>(Ahmislan)2C_Boots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_Boots</label>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
@@ -250,7 +250,7 @@
 	<!--Anneli_Ahmislan_LongBoots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_LongBoots</defName>
-		<description>(Ahmislan)2C_LongBoots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_LongBoots</label>
 		<equippedStatOffsets>
 			<SocialImpact>0.10</SocialImpact>
@@ -301,7 +301,7 @@
 	<!--Anneli_Ahmislan_DressShoes-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_DressShoes</defName>
-		<description>(Ahmislan)2C_DressShoes</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_DressShoes</label>
 		<equippedStatOffsets>
 			<TrainAnimalChance>0.05</TrainAnimalChance>
@@ -338,7 +338,7 @@
 	<!--Anneli_Ahmislan_ArmorLongBoots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_Metal">
 		<defName>Anneli_Ahmislan_ArmorLongBoots</defName>
-		<description>(Ahmislan)2C_ArmorLongBoots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_ArmorLongBoots</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
@@ -369,7 +369,7 @@
 	<!--Anneli_Ahmislan_ArmorBoots-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_Metal">
 		<defName>Anneli_Ahmislan_ArmorBoots</defName>
-		<description>(Ahmislan)2C_ArmorBoots</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_ArmorBoots</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
@@ -401,7 +401,7 @@
 	<!--Anneli_Ahmislan_NunHeels-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_NunHeels</defName>
-		<description>(Ahmislan)2C_NunHeels</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2C_NunHeels</label>
 		<equippedStatOffsets>
 			<MedicalTendQuality>0.05</MedicalTendQuality>

@@ -3,7 +3,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>Anneli_Ahmislan_Workbench</defName>
     <label>Anneli Ahmislan Bench</label>
-    <description>ToDo.</description>
+    <description>Many subsystems of the anvil have implemented antomation, and they are ridiculously energy efficient. However, the anvil did not improve on any labor intensive process as that might cause mass unemployment.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Anneli_Ahmislan_Workbench</texPath>
@@ -13,9 +13,11 @@
     </graphicData>
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <costList>
-      <Steel>100</Steel>
-    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.4</fillPercent>
     <rotatable>True</rotatable>
@@ -69,8 +71,8 @@
       <li>Manipulation</li>
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
- </WorkGiverDef>
-	
-	
-	
+  </WorkGiverDef>
+
+
+
 </Defs>

@@ -40,7 +40,7 @@
 <!--Anneli_Ahmislan_PeasantCloak-->
 	<ThingDef ParentName="Anneli_Ahmislan_5B">
 		<defName>Anneli_Ahmislan_PeasantCloak</defName>
-		<description>(Ahmislan)5B_PeasantCloak</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)5B_PeasantCloak</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.1</HungerRateMultiplier>
@@ -84,7 +84,7 @@
 <!--Anneli_Ahmislan_Cloak-->
 	<ThingDef ParentName="Anneli_Ahmislan_5B">
 		<defName>Anneli_Ahmislan_Cloak</defName>
-		<description>(Ahmislan)5B_Cloak</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)5B_Cloak</label>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>

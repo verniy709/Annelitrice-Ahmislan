@@ -50,7 +50,7 @@
 <!--Anneli_Ahmislan_Bonnet-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_Bonnet</defName>
-		<description>(Ahmislan)6A_Bonnet</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_Bonnet</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -81,7 +81,7 @@
 <!--Anneli_Ahmislan_Hood-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_Hood</defName>
-		<description>(Ahmislan)6A_Hood</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_Hood</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -113,7 +113,7 @@
 <!--Anneli_Ahmislan_StrawHat-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_StrawHat</defName>
-		<description>(Ahmislan)6A_StrawHat</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_StrawHat</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -157,7 +157,7 @@
 <!--Anneli_Ahmislan_HunterHat-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_HunterHat</defName>
-		<description>(Ahmislan)6A_HunterHat</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_HunterHat</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -200,7 +200,7 @@
 <!--Anneli_Ahmislan_KettleHelmet-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_Metal">
 		<defName>Anneli_Ahmislan_KettleHelmet</defName>
-		<description>(Ahmislan)6A_KettleHelmet</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_KettleHelmet</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -232,7 +232,7 @@
 <!--Anneli_Ahmislan_CraftsHat-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_CraftsHat</defName>
-		<description>(Ahmislan)6A_CraftsHat</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_CraftsHat</label>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
@@ -277,7 +277,7 @@
 <!--Anneli_Ahmislan_MaidHairband-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_MaidHairband</defName>
-		<description>(Ahmislan)6A_MaidHairband</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_MaidHairband</label>
 		<equippedStatOffsets>
 			<TrainAnimalChance>0.05</TrainAnimalChance>
@@ -308,7 +308,7 @@
 <!--Anneli_Ahmislan_SoldierHairBand-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_SoldierHairBand</defName>
-		<description>(Ahmislan)6A_SoldierHairBand</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_SoldierHairBand</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.1</PainShockThreshold>
@@ -323,7 +323,7 @@
 			<wornGraphicPath>6A/Anneli_Ahmislan_SoldierHairBand</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_MercenaryInfantry</li>
-				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Knight</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -357,7 +357,7 @@
 <!--Anneli_Ahmislan_ArcherHat-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_ArcherHat</defName>
-		<description>(Ahmislan)6A_ArcherHat</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_ArcherHat</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
@@ -402,7 +402,7 @@
 <!--Anneli_Ahmislan_NunHabit-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_NunHabit</defName>
-		<description>(Ahmislan)6A_NunHabit</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_NunHabit</label>
 		<equippedStatOffsets>
 			<MedicalTendQuality>0.05</MedicalTendQuality>
@@ -433,7 +433,7 @@
 <!--Anneli_Ahmislan_KnightHeaddress-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_NonMetal">
 		<defName>Anneli_Ahmislan_KnightHeaddress</defName>
-		<description>(Ahmislan)6A_KnightHeaddress</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_KnightHeaddress</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -480,7 +480,7 @@
 <!--Anneli_Ahmislan_Crown-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_Metal">
 		<defName>Anneli_Ahmislan_Crown</defName>
-		<description>(Ahmislan)6A_Crown</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_Crown</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -511,7 +511,7 @@
 <!--Anneli_Ahmislan_LittleCrown-->
 	<ThingDef ParentName="Anneli_Ahmislan_6A_Metal">
 		<defName>Anneli_Ahmislan_LittleCrown</defName>
-		<description>(Ahmislan)6A_LittleCrown</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6A_LittleCrown</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>

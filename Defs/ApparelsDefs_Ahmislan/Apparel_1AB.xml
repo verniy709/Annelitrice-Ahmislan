@@ -67,11 +67,11 @@
 		</colorGenerator>
 	</ThingDef>
 
-<!--Anneli_Ahmislan_CamisoleB-->
+<!--Anneli_Ahmislan_Tight-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">
-		<defName>Anneli_Ahmislan_CamisoleB</defName>
+		<defName>Anneli_Ahmislan_Knight_Summon</defName>
 		<description>Dyeable.</description><!-- \nA camisole with some ruffles. More like a swimsuit. -->
-		<label>(Ahmislan)1AB_CamisoleB</label>
+		<label>(Ahmislan)1AB_Knight_Summon</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.2</NegotiationAbility>
 			<SocialImpact>0.2</SocialImpact>

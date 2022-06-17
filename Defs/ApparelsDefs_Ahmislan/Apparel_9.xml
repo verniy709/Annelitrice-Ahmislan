@@ -7,8 +7,8 @@
 			<li>Metallic</li>
 		</stuffCategories>
 		<costList>
-      		<ComponentSpacer>3</ComponentSpacer>
-    	</costList>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>0.5</Mass>
@@ -35,16 +35,16 @@
 		</apparel>
 	</ThingDef>
 
-<!--Anneli_Ahmislan_Knight-->
+	<!--Anneli_Ahmislan_Knight_Summon-->
 	<ThingDef ParentName="Anneli_Ahmislan_9">
-		<defName>Anneli_Ahmislan_Knight</defName>
-		<description>(Ahmislan)9_Knight</description>
-		<label>(Ahmislan)9_POD_Knight</label>
+		<defName>Anneli_Ahmislan_Knight_Summon</defName>
+		<description>NOT dyeable.</description>
+		<label>(Ahmislan)9_Knight_Summon</label>
 		<tickerType>Normal</tickerType>
 		<thingClass>Annelitrice.AnnelitriceShieldBeltKnightA</thingClass>
 		<statBases>
-			<EnergyShieldRechargeRate>0.20</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
 		</statBases>
 		<graphicData>
 			<texPath>9/Anneli_Ahmislan_Knight</texPath>
@@ -53,11 +53,22 @@
 		<apparel>
 			<wornGraphicPath>9/Anneli_Ahmislan_Knight</wornGraphicPath>
 			<tags>
-				<li>Anneli_Ahmislan_Command</li>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
 			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.1</generateAllowChance><!--Less Spawn-->
 	</ThingDef>
 
 
-			
+	
 </Defs>

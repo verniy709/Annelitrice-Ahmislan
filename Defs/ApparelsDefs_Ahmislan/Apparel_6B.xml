@@ -50,7 +50,7 @@
 	<!--Anneli_Ahmislan_Monocle-->
 	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
 		<defName>Anneli_Ahmislan_Monocle</defName>
-		<description>(Ahmislan)6B_Monocle</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6B_Monocle</label>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
@@ -88,7 +88,7 @@
 	<!--Anneli_Ahmislan_Mask-->
 	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
 		<defName>Anneli_Ahmislan_Mask</defName>
-		<description>(Ahmislan)6B_Mask</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6B_Mask</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.1</NegotiationAbility>

@@ -64,7 +64,7 @@
 <!--Anneli_Ahmislan_PeasantShorts-->
 	<ThingDef ParentName="Anneli_Ahmislan_2B">
 		<defName>Anneli_Ahmislan_PeasantShorts</defName>
-		<description>(Ahmislan)2B_PeasantShorts</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2B_PeasantShorts</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -95,7 +95,7 @@
 <!--Anneli_Ahmislan_PeasantSkirt-->
 	<ThingDef ParentName="Anneli_Ahmislan_2B">
 		<defName>Anneli_Ahmislan_PeasantSkirt</defName>
-		<description>(Ahmislan)2B_PeasantSkirt</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2B_PeasantSkirt</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -138,7 +138,7 @@
 <!--Anneli_Ahmislan_CraftsShorts-->
 	<ThingDef ParentName="Anneli_Ahmislan_2B">
 		<defName>Anneli_Ahmislan_CraftsShorts</defName>
-		<description>(Ahmislan)2B_CraftsShorts</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)2B_CraftsShorts</label>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>

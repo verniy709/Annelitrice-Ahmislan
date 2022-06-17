@@ -55,7 +55,7 @@
 <!--Anneli_Ahmislan_SoldierHelmet-->
 	<ThingDef ParentName="Anneli_Ahmislan_6ABC_Metal">
 		<defName>Anneli_Ahmislan_SoldierHelmet</defName>
-		<description>(Ahmislan)6ABC_SoldierHelmet</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)6ABC_SoldierHelmet</label>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
@@ -86,6 +86,38 @@
 		</stuffCategories>
 	</ThingDef>
 
-
+<!--Anneli_Ahmislan_KnightHelmet-->
+	<ThingDef ParentName="Anneli_Ahmislan_6ABC_Metal">
+		<defName>Anneli_Ahmislan_KnightHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6ABC_KnightHelmet</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6ABC/Anneli_Ahmislan_KnightHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Ahmislan_KnightHelmet</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
 			
 </Defs>

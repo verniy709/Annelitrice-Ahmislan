@@ -127,7 +127,7 @@
 	<!--Anneli_Ahmislan_SwordWing-->
 	<ThingDef ParentName="Anneli_Ahmislan_7A">
 		<defName>Anneli_Ahmislan_SwordWing</defName>
-		<description>(Ahmislan)7A_Ahmislan_SwordWing</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)7A_Ahmislan_SwordWing</label>
 		<graphicData>
 			<texPath>7A/Anneli_Ahmislan_SwordWing</texPath>
@@ -154,7 +154,7 @@
 	<!--Anneli_Ahmislan_CrystalSwordWing-->
 	<ThingDef ParentName="Anneli_Ahmislan_7A">
 		<defName>Anneli_Ahmislan_CrystalSwordWing_</defName>
-		<description>(Ahmislan)7A_Ahmislan_CrystalSwordWing</description>
+		<description>NOT dyeable.</description>
 		<label>(Ahmislan)7A_Ahmislan_CrystalSwordWing</label>
 		<graphicData>
 			<texPath>7A/Anneli_Ahmislan_CrystalSwordWing</texPath>

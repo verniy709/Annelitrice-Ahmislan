@@ -73,7 +73,7 @@
     <ThingDef ParentName="Ahmislan_BaseShield">
         <defName>Anneli_Ahmislan_HolyWarBanner</defName>
         <label>(Ahmislan)9_HolyWarBanner</label>
-        <description>(Ahmislan)9_HolyWarBanner</description>
+        <description>NOT dyeable.</description>
         <graphicData>
             <texPath>9/Anneli_Ahmislan_HolyWarBanner</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -173,7 +173,7 @@
     <ThingDef ParentName="Ahmislan_BaseShield">
         <defName>Anneli_Ahmislan_WarFlag</defName>
         <label>(Ahmislan)9_WarFlag</label>
-        <description>(Ahmislan)9_WarFlag</description>
+        <description>Dyeable.</description>
         <graphicData>
             <texPath>9/Anneli_Ahmislan_WarFlag</texPath>
             <graphicClass>Graphic_Single</graphicClass>

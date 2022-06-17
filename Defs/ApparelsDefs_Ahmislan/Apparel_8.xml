@@ -36,7 +36,7 @@
 <!--Anneli_Ahmislan_Basket-->
 	<ThingDef ParentName="Anneli_Ahmislan_8">
 		<defName>Anneli_Ahmislan_Basket</defName>
-		<description>(Ahmislan)8_Basket</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)8_Basket</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>
@@ -78,7 +78,7 @@
 <!--Anneli_Ahmislan_Luggage-->
 	<ThingDef ParentName="Anneli_Ahmislan_8">
 		<defName>Anneli_Ahmislan_Luggage</defName>
-		<description>(Ahmislan)8_Luggage</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)8_Luggage</label>
 		<equippedStatOffsets>
 			<HungerRateMultiplier>-0.05</HungerRateMultiplier>

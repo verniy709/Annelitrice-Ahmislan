@@ -38,7 +38,7 @@
 <!--Anneli_Ahmislan_Tabard-->
 	<ThingDef ParentName="Anneli_Ahmislan_5AB">
 		<defName>Anneli_Ahmislan_Tabard</defName>
-		<description>(Ahmislan)5AB_Tabard</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)5AB_Tabard</label>
 		<equippedStatOffsets>
 			
@@ -83,7 +83,7 @@
 <!--Anneli_Ahmislan_KnightCloak-->
 	<ThingDef ParentName="Anneli_Ahmislan_5AB">
 		<defName>Anneli_Ahmislan_KnightCloak</defName>
-		<description>(Ahmislan)5AB_KnightCloak</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)5AB_KnightCloak</label>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -127,7 +127,7 @@
 <!--Anneli_Ahmislan_RoyalCloak-->
 	<ThingDef ParentName="Anneli_Ahmislan_5AB">
 		<defName>Anneli_Ahmislan_RoyalCloak</defName>
-		<description>(Ahmislan)5AB_RoyalCloak</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)5AB_RoyalCloak</label>
 		<graphicData>
 			<texPath>5AB/Anneli_Ahmislan_RoyalCloak</texPath>

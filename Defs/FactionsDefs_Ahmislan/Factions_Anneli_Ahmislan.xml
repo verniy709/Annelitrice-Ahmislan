@@ -4,7 +4,7 @@
 	<FactionDef ParentName="Anneli_FactionBase">
 		<defName>Anneli_Faction_Ahmislan</defName>
 		<label>Anneli Faction Ahmislan</label>
-		<description>ToDo.</description>
+		<description>Ahmislan Kingdom used to be popular medieval themed amusement parks on many planets. Its main attractions were experiencing traditional lives of thousands of years ago. After freezing of their assets, Ahmislan Kingdom did not disappear. Some remaining employees settled in the wild, using survival skills and primitive tools gained in the amusement parks. They farm, build, establish institution and finally, formed a somewhat realistic medieval society. \nTheir rural lifestyle is surprisingly charming to certain people. After some time, the kingdom attracted quite a diverse group of people, like vagrants, apocalypticists, isekai travelers, cosplayers, armored combat enthusiasts, etc. The increasing population made the kingdom more influential, but it also triggered more social unrests. Nevertheless, the looming crisis did not push the kingdom to achieve more technological advances and social reforms. Instead, residents were more keen on fruitless and recreative expeditions. Althought their troops were mostly defeated due to poor organization and training, everyone did have a good time. \nNow the kingdom is at a tipping point of a total collapse. The society is full of bankrupted farmer, rude mercenaries and idling knights, seemingly preparing for bellum omnium contra omnes. However, rulers of the Ahmislan Kingdom were not interested in the development of such situation, as both prosperity and doom are chapters of their stories.</description>
 		<pawnSingular>Annelitrice</pawnSingular>
 		<pawnsPlural>Annelitrices</pawnsPlural>
 		<fixedName>Forged Ahmislan</fixedName>
@@ -18,7 +18,7 @@
         <permanentEnemy>false</permanentEnemy>
 		<techLevel>Medieval</techLevel>
 		<allowedCultures>
-			<li>Anneli_Cultures_Rustican</li>
+			<li>Anneli_Cultures_Corunan</li>
 		</allowedCultures>
 		<settlementTexturePath>Anneli_Factions/Anneli_Ahmislan</settlementTexturePath>
 		<factionIconPath>Anneli_Factions/Anneli_Ahmislan</factionIconPath>

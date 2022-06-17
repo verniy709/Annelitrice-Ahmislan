@@ -45,7 +45,7 @@
 <!--Anneli_Ahmislan_SoldierArmorA-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_SoldierArmorA</defName>
-		<description>(Ahmislan)34_SoldierArmorA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_SoldierArmorA</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_SoldierArmorA</texPath>
@@ -71,7 +71,7 @@
 <!--Anneli_Ahmislan_SoldierArmorB-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_SoldierArmorB</defName>
-		<description>(Ahmislan)34_SoldierArmorB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_SoldierArmorB</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_SoldierArmorB</texPath>
@@ -97,7 +97,7 @@
 <!--Anneli_Ahmislan_SoldierArmorC-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_SoldierArmorC</defName>
-		<description>(Ahmislan)34_SoldierArmorC</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_SoldierArmorC</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_SoldierArmorC</texPath>
@@ -123,7 +123,7 @@
 <!--Anneli_Ahmislan_KnightArmorA-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_KnightArmorA</defName>
-		<description>(Ahmislan)34_KnightArmorA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_KnightArmorA</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_KnightArmorA</texPath>
@@ -149,7 +149,7 @@
 <!--Anneli_Ahmislan_KnightArmorB-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_KnightArmorB</defName>
-		<description>(Ahmislan)34_KnightArmorB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_KnightArmorB</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_KnightArmorB</texPath>
@@ -175,7 +175,7 @@
 <!--Anneli_Ahmislan_KnightArmorC-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_KnightArmorC</defName>
-		<description>(Ahmislan)34_KnightArmorC</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_KnightArmorC</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_KnightArmorC</texPath>
@@ -201,7 +201,7 @@
 <!--Anneli_Ahmislan_RoyalArmorA-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_RoyalArmorA</defName>
-		<description>(Ahmislan)34_RoyalArmorA</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_RoyalArmorA</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_RoyalArmorA</texPath>
@@ -227,7 +227,7 @@
 <!--Anneli_Ahmislan_RoyalArmorB-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_RoyalArmorB</defName>
-		<description>(Ahmislan)34_RoyalArmorB</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_RoyalArmorB</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_RoyalArmorB</texPath>
@@ -253,7 +253,7 @@
 <!--Anneli_Ahmislan_RoyalArmorC-->
 	<ThingDef ParentName="Anneli_Ahmislan_34">
 		<defName>Anneli_Ahmislan_RoyalArmorC</defName>
-		<description>(Ahmislan)34_RoyalArmorC</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)34_RoyalArmorC</label>
 		<graphicData>
 			<texPath>34/Anneli_Ahmislan_RoyalArmorC</texPath>

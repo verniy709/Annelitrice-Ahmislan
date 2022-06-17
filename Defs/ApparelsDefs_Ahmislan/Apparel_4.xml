@@ -58,7 +58,7 @@
 	<!--Anneli_Ahmislan_LeatherVest-->
 	<ThingDef ParentName="Anneli_Ahmislan_4">
 		<defName>Anneli_Ahmislan_LeatherVest</defName>
-		<description>(Ahmislan)4_LeatherVest</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)4_LeatherVest</label>
 		<graphicData>
 			<texPath>4/Anneli_Ahmislan_LeatherVest</texPath>
@@ -96,7 +96,7 @@
 	<!--Anneli_Ahmislan_LeatherCorset-->
 	<ThingDef ParentName="Anneli_Ahmislan_2C_NonMetal">
 		<defName>Anneli_Ahmislan_LeatherCorset</defName>
-		<description>(Ahmislan)4_LeatherCorset</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)4_LeatherCorset</label>
 		<graphicData>
 			<texPath>4/Anneli_Ahmislan_LeatherCorset</texPath>

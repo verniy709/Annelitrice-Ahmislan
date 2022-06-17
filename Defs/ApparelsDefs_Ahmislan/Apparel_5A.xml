@@ -36,7 +36,7 @@
 <!--Anneli_Ahmislan_SurvivalKit-->
 	<ThingDef ParentName="Anneli_Ahmislan_5A">
 		<defName>Anneli_Ahmislan_SurvivalKit</defName>
-		<description>(Ahmislan)5A_SurvivalKit</description>
+		<description>Dyeable.</description>
 		<label>(Ahmislan)5A_SurvivalKit</label>
 		<equippedStatOffsets>
 			<CarryingCapacity>2.5</CarryingCapacity>
