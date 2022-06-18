@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<MVCF.ModDef>
-		<defName>MVCF_EnableAll_Ahmislan</defName>
-		<Features>
-			<ExtraEquipmentVerbs>true</ExtraEquipmentVerbs>
-			<IntegratedToggle>true</IntegratedToggle>
-			<HediffVerbs>true</HediffVerbs>
-			<IndependentFire>true</IndependentFire>
-			<ApparelVerbs>true</ApparelVerbs>
-		</Features>
-	</MVCF.ModDef>
-
 	<!-- Anneli_Ahmislan_SwordWing_Bullet-->
 
 	<ThingDef ParentName="BaseBullet">
