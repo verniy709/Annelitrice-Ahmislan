@@ -152,11 +152,11 @@
                     </west>
                 </offHandHoldOffset>
             </li>
-            <!-- <li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+            <li Class="Annelitrice.CompProperties_ApparelHediffGiver">
                 <hediffDef>Anneli_Ahmislan_Resilience</hediffDef>        
                 <severityIncrease>0.2</severityIncrease>  
                 <radius>15</radius>                         
-            </li> -->
+            </li>
         </comps>
         <colorGenerator Class="ColorGenerator_Options">
             <options>
@@ -252,11 +252,11 @@
                     </west>
                 </offHandHoldOffset>
             </li>
-            <!-- <li Class="Annelitrice.CompProperties_ApparelHediffGiver">
-                <hediffDef>Anneli_Ahmislan_Resilience</hediffDef>        
+            <li Class="Annelitrice.CompProperties_ApparelHediffGiver">
+                <hediffDef>Anneli_Ahmislan_Courage</hediffDef>        
                 <severityIncrease>0.2</severityIncrease>  
                 <radius>15</radius>                         
-            </li> -->
+            </li>
         </comps>
         <colorGenerator Class="ColorGenerator_Options">
             <options>
