@@ -35,9 +35,9 @@
 		</apparel>
 	</ThingDef>
 
-<!--Anneli_Ahmislan_CamisoleA-->
+<!--Anneli_Ahmislan_Camisole-->
 	<ThingDef ParentName="Anneli_Ahmislan_1AB">
-		<defName>Anneli_Ahmislan_CamisoleA</defName>
+		<defName>Anneli_Ahmislan_Camisole</defName>
 		<description>Dyeable.</description><!-- \nAn camisole with a lot of lace. Not doing good for a resolution below 512. -->
 		<label>(Ahmislan)1AB_CamisoleA</label>
 		<equippedStatOffsets>
