@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_TornSocks -->
+
+  <Anneli_Ahmislan_TornSocks.label>(艾米斯兰)1C_破烂袜子</Anneli_Ahmislan_TornSocks.label>
+  <Anneli_Ahmislan_TornSocks.description>可染色.</Anneli_Ahmislan_TornSocks.description>
+
+
+  <!-- Anneli_Ahmislan_RibbonSocks -->
+
+  <Anneli_Ahmislan_RibbonSocks.label>(艾米斯兰)1C_丝带袜子</Anneli_Ahmislan_RibbonSocks.label>
+  <Anneli_Ahmislan_RibbonSocks.description>可染色.</Anneli_Ahmislan_RibbonSocks.description>
+
+
+  <!-- Anneli_Ahmislan_Stockings -->
+
+  <Anneli_Ahmislan_Stockings.label>(艾米斯兰)1C_过膝袜</Anneli_Ahmislan_Stockings.label>
+  <Anneli_Ahmislan_Stockings.description>可染色.</Anneli_Ahmislan_Stockings.description>
+
+
+  <!-- Anneli_Ahmislan_NunStockings -->
+
+  <Anneli_Ahmislan_NunStockings.label>(艾米斯兰)1C_修女袜子</Anneli_Ahmislan_NunStockings.label>
+  <Anneli_Ahmislan_NunStockings.description>可染色.</Anneli_Ahmislan_NunStockings.description>
+
+
+  <!-- Anneli_Ahmislan_StirrupLeggings -->
+
+  <Anneli_Ahmislan_StirrupLeggings.label>(艾米斯兰)1C_踩脚袜</Anneli_Ahmislan_StirrupLeggings.label>
+  <Anneli_Ahmislan_StirrupLeggings.description>可染色.</Anneli_Ahmislan_StirrupLeggings.description>
+
+
+</LanguageData>

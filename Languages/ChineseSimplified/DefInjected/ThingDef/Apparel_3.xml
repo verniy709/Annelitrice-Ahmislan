@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_PeasantApron -->
+
+  <Anneli_Ahmislan_PeasantApron.label>(艾米斯兰)3_农民围裙</Anneli_Ahmislan_PeasantApron.label>
+  <Anneli_Ahmislan_PeasantApron.description>可染色.</Anneli_Ahmislan_PeasantApron.description>
+
+
+  <!-- Anneli_Ahmislan_PeasantKirtle -->
+
+  <Anneli_Ahmislan_PeasantKirtle.label>(艾米斯兰)3_农民外裙</Anneli_Ahmislan_PeasantKirtle.label>
+  <Anneli_Ahmislan_PeasantKirtle.description>可染色.</Anneli_Ahmislan_PeasantKirtle.description>
+
+
+  <!-- Anneli_Ahmislan_PeasantRobe -->
+
+  <Anneli_Ahmislan_PeasantRobe.label>(艾米斯兰)3_农民长袍</Anneli_Ahmislan_PeasantRobe.label>
+  <Anneli_Ahmislan_PeasantRobe.description>可染色.</Anneli_Ahmislan_PeasantRobe.description>
+
+
+  <!-- Anneli_Ahmislan_PeasantTunic -->
+
+  <Anneli_Ahmislan_PeasantTunic.label>(艾米斯兰)3_农民外衣</Anneli_Ahmislan_PeasantTunic.label>
+  <Anneli_Ahmislan_PeasantTunic.description>可染色.</Anneli_Ahmislan_PeasantTunic.description>
+
+
+  <!-- Anneli_Ahmislan_CraftsVest -->
+
+  <Anneli_Ahmislan_CraftsVest.label>(艾米斯兰)3_工匠背心</Anneli_Ahmislan_CraftsVest.label>
+  <Anneli_Ahmislan_CraftsVest.description>可染色.</Anneli_Ahmislan_CraftsVest.description>
+
+
+  <!-- Anneli_Ahmislan_MaidApron -->
+
+  <Anneli_Ahmislan_MaidApron.label>(艾米斯兰)3_女仆围裙</Anneli_Ahmislan_MaidApron.label>
+  <Anneli_Ahmislan_MaidApron.description>可染色.</Anneli_Ahmislan_MaidApron.description>
+
+
+  <!-- Anneli_Ahmislan_ArcherJacket -->
+
+  <Anneli_Ahmislan_ArcherJacket.label>(艾米斯兰)3_弓手夹克</Anneli_Ahmislan_ArcherJacket.label>
+  <Anneli_Ahmislan_ArcherJacket.description>可染色.</Anneli_Ahmislan_ArcherJacket.description>
+
+
+  <!-- Anneli_Ahmislan_NunCassock -->
+
+  <Anneli_Ahmislan_NunCassock.label>(艾米斯兰)3_修女法衣</Anneli_Ahmislan_NunCassock.label>
+  <Anneli_Ahmislan_NunCassock.description>可染色.</Anneli_Ahmislan_NunCassock.description>
+
+
+</LanguageData>

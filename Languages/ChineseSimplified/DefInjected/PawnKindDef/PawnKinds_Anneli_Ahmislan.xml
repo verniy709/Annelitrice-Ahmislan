@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Lower Class -->
+
+  <Anneli_Ahmislan_Vagrant.label>艾米斯兰_流民</Anneli_Ahmislan_Vagrant.label>
+  <Anneli_Ahmislan_PeasantMan.label>艾米斯兰_农夫</Anneli_Ahmislan_PeasantMan.label>
+  <Anneli_Ahmislan_PeasantWoman.label>艾米斯兰_农妇</Anneli_Ahmislan_PeasantWoman.label>
+  <Anneli_Ahmislan_Militia.label>艾米斯兰_民兵</Anneli_Ahmislan_Militia.label>
+
+
+  <!-- Bourgeoisie -->
+
+  <Anneli_Ahmislan_Craftswoman.label>艾米斯兰_工匠</Anneli_Ahmislan_Craftswoman.label>
+  <Anneli_Ahmislan_CourtLady.label>艾米斯兰_侍女</Anneli_Ahmislan_CourtLady.label>
+  <Anneli_Ahmislan_Merchant.label>艾米斯兰_商人</Anneli_Ahmislan_Merchant.label>
+  <Anneli_Ahmislan_MercenaryInfantry.label>艾米斯兰_雇佣步兵</Anneli_Ahmislan_MercenaryInfantry.label>
+  <Anneli_Ahmislan_MercenaryArcher.label>艾米斯兰_雇佣弓手</Anneli_Ahmislan_MercenaryArcher.label>
+
+
+  <!-- Upper Class -->
+
+  <Anneli_Ahmislan_Clergywoman.label>艾米斯兰_神职人员</Anneli_Ahmislan_Clergywoman.label>
+  <Anneli_Ahmislan_Knight.label>艾米斯兰_骑士</Anneli_Ahmislan_Knight.label>
+  <Anneli_Ahmislan_Royalty.label>艾米斯兰_皇族</Anneli_Ahmislan_Royalty.label>
+
+
+</LanguageData>

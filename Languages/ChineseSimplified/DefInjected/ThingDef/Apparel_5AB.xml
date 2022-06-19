@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_Tabard -->
+
+  <Anneli_Ahmislan_Tabard.label>(艾米斯兰)5AB_战袍</Anneli_Ahmislan_Tabard.label>
+  <Anneli_Ahmislan_Tabard.description>可染色.</Anneli_Ahmislan_Tabard.description>
+
+
+  <!-- Anneli_Ahmislan_KnightCloak -->
+
+  <Anneli_Ahmislan_KnightCloak.label>(艾米斯兰)5AB_骑士战袍</Anneli_Ahmislan_KnightCloak.label>
+  <Anneli_Ahmislan_KnightCloak.description>可染色.</Anneli_Ahmislan_KnightCloak.description>
+
+
+  <!-- Anneli_Ahmislan_RoyalCloak -->
+
+  <Anneli_Ahmislan_RoyalCloak.label>(艾米斯兰)5AB_皇族战袍</Anneli_Ahmislan_RoyalCloak.label>
+  <Anneli_Ahmislan_RoyalCloak.description>可染色.</Anneli_Ahmislan_RoyalCloak.description>
+
+
+</LanguageData>

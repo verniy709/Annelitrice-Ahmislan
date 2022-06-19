@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_SwordWing_Bullet -->
+
+  <Anneli_Ahmislan_SwordWing_Bullet.label>剑翼子弹</Anneli_Ahmislan_SwordWing_Bullet.label>
+
+
+  <!-- Anneli_Ahmislan_SwordWing -->
+
+  <Anneli_Ahmislan_SwordWing.label>(艾米斯兰)7A_剑翼</Anneli_Ahmislan_SwordWing.label>
+  <Anneli_Ahmislan_SwordWing.description>可染色.</Anneli_Ahmislan_SwordWing.description>
+  <Anneli_Ahmislan_SwordWing.comps.3.verbProps.0.label>剑翼</Anneli_Ahmislan_SwordWing.comps.3.verbProps.0.label>
+  <Anneli_Ahmislan_SwordWing.verbs.0.label>剑翼</Anneli_Ahmislan_SwordWing.verbs.0.label>
+
+
+  <!-- Anneli_Ahmislan_CrystalSwordWing -->
+
+  <Anneli_Ahmislan_CrystalSwordWing.label>(艾米斯兰)7A_水晶剑翼</Anneli_Ahmislan_CrystalSwordWing.label>
+  <Anneli_Ahmislan_CrystalSwordWing.description>不可染色.</Anneli_Ahmislan_CrystalSwordWing.description>
+  <Anneli_Ahmislan_CrystalSwordWing.comps.3.verbProps.0.label>剑翼</Anneli_Ahmislan_CrystalSwordWing.comps.3.verbProps.0.label>
+  <Anneli_Ahmislan_CrystalSwordWing.verbs.0.label>剑翼</Anneli_Ahmislan_CrystalSwordWing.verbs.0.label>
+
+
+</LanguageData>

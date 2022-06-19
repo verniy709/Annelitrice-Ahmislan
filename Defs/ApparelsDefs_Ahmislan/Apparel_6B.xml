@@ -89,7 +89,7 @@
 	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
 		<defName>Anneli_Ahmislan_Mask</defName>
 		<description>Dyeable.</description>
-		<label>(Ahmislan)6B_Mask</label>
+		<label>(Ahmislan)6B_EyeMask</label>
 		<equippedStatOffsets>
 			<NegotiationAbility>0.1</NegotiationAbility>
 			<SocialImpact>0.1</SocialImpact>

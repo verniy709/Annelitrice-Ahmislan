@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_PeasantPants -->
+
+  <Anneli_Ahmislan_PeasantPants.label>(艾米斯兰)2B_农民裤子</Anneli_Ahmislan_PeasantPants.label>
+  <Anneli_Ahmislan_PeasantPants.description>可染色.</Anneli_Ahmislan_PeasantPants.description>
+
+
+  <!-- Anneli_Ahmislan_PeasantShorts -->
+
+  <Anneli_Ahmislan_PeasantShorts.label>(艾米斯兰)2B_农民短裤</Anneli_Ahmislan_PeasantShorts.label>
+  <Anneli_Ahmislan_PeasantShorts.description>可染色.</Anneli_Ahmislan_PeasantShorts.description>
+
+
+  <!-- Anneli_Ahmislan_PeasantSkirt -->
+
+  <Anneli_Ahmislan_PeasantSkirt.label>(艾米斯兰)2B_农民下裙</Anneli_Ahmislan_PeasantSkirt.label>
+  <Anneli_Ahmislan_PeasantSkirt.description>可染色.</Anneli_Ahmislan_PeasantSkirt.description>
+
+
+  <!-- Anneli_Ahmislan_CraftsShorts -->
+
+  <Anneli_Ahmislan_CraftsShorts.label>(艾米斯兰)2C_工匠短裤</Anneli_Ahmislan_CraftsShorts.label>
+  <Anneli_Ahmislan_CraftsShorts.description>可染色.</Anneli_Ahmislan_CraftsShorts.description>
+
+
+</LanguageData>

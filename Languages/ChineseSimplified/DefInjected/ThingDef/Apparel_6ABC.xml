@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_SoldierHelmet -->
+
+  <Anneli_Ahmislan_SoldierHelmet.label>(艾米斯兰)6ABC_军士头盔</Anneli_Ahmislan_SoldierHelmet.label>
+  <Anneli_Ahmislan_SoldierHelmet.description>可染色.</Anneli_Ahmislan_SoldierHelmet.description>
+
+
+  <!-- Anneli_Ahmislan_KnightHelmet -->
+
+  <Anneli_Ahmislan_KnightHelmet.label>(艾米斯兰)6ABC_骑士头盔</Anneli_Ahmislan_KnightHelmet.label>
+  <Anneli_Ahmislan_KnightHelmet.description>可染色.</Anneli_Ahmislan_KnightHelmet.description>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_HolyWarBanner -->
+
+  <Anneli_Ahmislan_HolyWarBanner.label>(艾米斯兰)9_圣战旗</Anneli_Ahmislan_HolyWarBanner.label>
+  <Anneli_Ahmislan_HolyWarBanner.description>不可染色.</Anneli_Ahmislan_HolyWarBanner.description>
+  <Anneli_Ahmislan_HolyWarBanner.tools.0.label>把手</Anneli_Ahmislan_HolyWarBanner.tools.0.label>
+  <Anneli_Ahmislan_HolyWarBanner.tools.1.label>尖端</Anneli_Ahmislan_HolyWarBanner.tools.1.label>
+
+
+  <!-- Anneli_Ahmislan_WarFlag -->
+
+  <Anneli_Ahmislan_WarFlag.label>(艾米斯兰)9_战旗</Anneli_Ahmislan_WarFlag.label>
+  <Anneli_Ahmislan_WarFlag.description>可染色.但是盾牌类染色有bug. 需要手动修改defs colorGenerator来染色.</Anneli_Ahmislan_WarFlag.description>
+  <Anneli_Ahmislan_WarFlag.tools.0.label>把手</Anneli_Ahmislan_WarFlag.tools.0.label>
+  <Anneli_Ahmislan_WarFlag.tools.1.label>尖端</Anneli_Ahmislan_WarFlag.tools.1.label>
+
+
+</LanguageData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_PeasantChemise -->
+
+  <Anneli_Ahmislan_PeasantChemise.label>(艾米斯兰)2AB_农民罩衣</Anneli_Ahmislan_PeasantChemise.label>
+  <Anneli_Ahmislan_PeasantChemise.description>可染色.</Anneli_Ahmislan_PeasantChemise.description>
+
+
+  <!-- Anneli_Ahmislan_MaidDress -->
+
+  <Anneli_Ahmislan_MaidDress.label>(艾米斯兰)2AB_女仆裙</Anneli_Ahmislan_MaidDress.label>
+  <Anneli_Ahmislan_MaidDress.description>可染色.</Anneli_Ahmislan_MaidDress.description>
+
+
+  <!-- Anneli_Ahmislan_ArcherDress -->
+
+  <Anneli_Ahmislan_ArcherDress.label>(艾米斯兰)2AB_弓手裙</Anneli_Ahmislan_ArcherDress.label>
+  <Anneli_Ahmislan_ArcherDress.description>可染色.</Anneli_Ahmislan_ArcherDress.description>
+
+
+  <!-- Anneli_Ahmislan_SoldierUniform -->
+
+  <Anneli_Ahmislan_SoldierUniform.label>(艾米斯兰)2AB_军士服</Anneli_Ahmislan_SoldierUniform.label>
+  <Anneli_Ahmislan_SoldierUniform.description>可染色.</Anneli_Ahmislan_SoldierUniform.description>
+
+
+  <!-- Anneli_Ahmislan_NunDress -->
+
+  <Anneli_Ahmislan_NunDress.label>(艾米斯兰)2AB_修女裙</Anneli_Ahmislan_NunDress.label>
+  <Anneli_Ahmislan_NunDress.description>可染色.</Anneli_Ahmislan_NunDress.description>
+
+
+  <!-- Anneli_Ahmislan_KnightDress -->
+
+  <Anneli_Ahmislan_KnightDress.label>(艾米斯兰)2AB_骑士裙</Anneli_Ahmislan_KnightDress.label>
+  <Anneli_Ahmislan_KnightDress.description>可染色.</Anneli_Ahmislan_KnightDress.description>
+
+
+  <!-- Anneli_Ahmislan_RoyalFormal -->
+
+  <Anneli_Ahmislan_RoyalFormal.label>(艾米斯兰)2AB_皇族礼服</Anneli_Ahmislan_RoyalFormal.label>
+  <Anneli_Ahmislan_RoyalFormal.description>可染色.</Anneli_Ahmislan_RoyalFormal.description>
+
+
+</LanguageData>

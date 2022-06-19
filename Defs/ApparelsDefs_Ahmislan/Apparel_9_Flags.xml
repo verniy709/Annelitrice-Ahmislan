@@ -173,7 +173,7 @@
     <ThingDef ParentName="Ahmislan_BaseShield">
         <defName>Anneli_Ahmislan_WarFlag</defName>
         <label>(Ahmislan)9_WarFlag</label>
-        <description>Dyeable.</description>
+        <description>Dyeable.But the color of shields has a bug. To get the colors you want, you might need to change colorGenerator in the 9-Shields defs</description>
         <graphicData>
             <texPath>9/Anneli_Ahmislan_WarFlag</texPath>
             <graphicClass>Graphic_Single</graphicClass>

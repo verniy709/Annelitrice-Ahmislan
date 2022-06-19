@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_Courage_Hediff -->
+
+  <Anneli_Ahmislan_Courage.label>受战旗激励</Anneli_Ahmislan_Courage.label>
+  <Anneli_Ahmislan_Courage.description>增加移动速度, 近战命中率, 近战躲闪, 射击精度和装填速度.</Anneli_Ahmislan_Courage.description>
+  <Anneli_Ahmislan_Courage.labelNoun>勇气</Anneli_Ahmislan_Courage.labelNoun>
+
+
+  <!-- Anneli_Ahmislan_Resilience_Hediff -->
+
+  <Anneli_Ahmislan_Resilience.label>受圣战旗激励</Anneli_Ahmislan_Resilience.label>
+  <Anneli_Ahmislan_Resilience.description>增加防御, 恢复速度, 免疫获取速度和疼痛阈值. 降低饥饿速度.</Anneli_Ahmislan_Resilience.description>
+  <Anneli_Ahmislan_Resilience.labelNoun>坚韧</Anneli_Ahmislan_Resilience.labelNoun>
+
+
+</LanguageData>

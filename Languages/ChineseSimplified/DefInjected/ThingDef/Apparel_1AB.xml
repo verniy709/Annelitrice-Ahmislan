@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_Camisole -->
+
+  <Anneli_Ahmislan_Camisole.label>(艾米斯兰)1AB_吊带背心</Anneli_Ahmislan_Camisole.label>
+  <Anneli_Ahmislan_Camisole.description>可染色.</Anneli_Ahmislan_Camisole.description>
+
+
+  <!-- Anneli_Ahmislan_Tight -->
+
+  <Anneli_Ahmislan_Tight.label>(艾米斯兰)1AB_紧身衣</Anneli_Ahmislan_Tight.label>
+  <Anneli_Ahmislan_Tight.description>可染色.</Anneli_Ahmislan_Tight.description>
+
+
+  <!-- Anneli_Ahmislan_NunUnderwear -->
+
+  <Anneli_Ahmislan_NunUnderwear.label>(艾米斯兰)1AB_修女内衣</Anneli_Ahmislan_NunUnderwear.label>
+  <Anneli_Ahmislan_NunUnderwear.description>可染色.</Anneli_Ahmislan_NunUnderwear.description>
+
+
+</LanguageData>

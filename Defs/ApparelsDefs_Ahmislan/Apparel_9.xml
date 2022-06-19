@@ -31,11 +31,11 @@
 		</apparel>
 	</ThingDef>
 
-	<!--Anneli_Ahmislan_Knight_Summon-->
+	<!--Anneli_Ahmislan_KnightSummon-->
 	<ThingDef ParentName="Anneli_Ahmislan_9">
-		<defName>Anneli_Ahmislan_Knight_Summon</defName>
+		<defName>Anneli_Ahmislan_KnightSummon</defName>
 		<description>NOT dyeable.</description>
-		<label>(Ahmislan)9_Knight_Summon</label>
+		<label>(Ahmislan)9_KnightSummon</label>
 		<tickerType>Normal</tickerType>
 		<thingClass>Annelitrice.AnnelitriceShieldBeltKnightA</thingClass>
 		<statBases>

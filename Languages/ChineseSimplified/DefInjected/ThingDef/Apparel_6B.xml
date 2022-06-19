@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Anneli_Ahmislan_Monocle -->
+
+  <Anneli_Ahmislan_Monocle.label>(艾米斯兰)6B_单眼镜</Anneli_Ahmislan_Monocle.label>
+  <Anneli_Ahmislan_Monocle.description>可染色.</Anneli_Ahmislan_Monocle.description>
+
+
+  <!-- Anneli_Ahmislan_Mask -->
+
+  <Anneli_Ahmislan_Mask.label>(艾米斯兰)6B_面具</Anneli_Ahmislan_Mask.label>
+  <Anneli_Ahmislan_Mask.description>可染色.</Anneli_Ahmislan_Mask.description>
+
+
+</LanguageData>
