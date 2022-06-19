@@ -142,7 +142,7 @@
 
 	<!--Anneli_Ahmislan_CrystalSwordWing-->
 	<ThingDef ParentName="Anneli_Ahmislan_7A">
-		<defName>Anneli_Ahmislan_CrystalSwordWing_</defName>
+		<defName>Anneli_Ahmislan_CrystalSwordWing</defName>
 		<description>NOT dyeable.</description>
 		<label>(Ahmislan)7A_Ahmislan_CrystalSwordWing</label>
 		<graphicData>
