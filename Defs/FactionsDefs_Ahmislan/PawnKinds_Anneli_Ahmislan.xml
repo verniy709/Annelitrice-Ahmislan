@@ -159,6 +159,7 @@
 		<defName>Anneli_Ahmislan_Merchant</defName>
 		<label>Anneli_Ahmislan_Merchant</label>
 		<isFighter>True</isFighter>
+		<trader>true</trader>
 		<apparelTags>
 			<li>Anneli_Ahmislan_Merchant</li>
 		</apparelTags>
