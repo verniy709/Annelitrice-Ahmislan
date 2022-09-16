@@ -98,6 +98,7 @@
 				<li>Anneli_Ahmislan_PeasantMan</li>
 				<li>Anneli_Ahmislan_PeasantWoman</li>
 				<li>Anneli_Ahmislan_Militia</li>
+				<li>Anneli_Hood</li>
 			</tags>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
@@ -417,6 +418,7 @@
 			<wornGraphicPath>6A/Anneli_Ahmislan_NunHabit</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_Clergywoman</li>
+				<li>Anneli_Hood</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>

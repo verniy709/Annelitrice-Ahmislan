@@ -70,6 +70,7 @@
 			<wornGraphicPath>6ABC/Anneli_Ahmislan_SoldierHelmet</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_FullHelmet</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
@@ -104,6 +105,7 @@
 			<wornGraphicPath>6ABC/Anneli_Ahmislan_KnightHelmet</wornGraphicPath>
 			<tags>
 				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_FullHelmet</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
 		</apparel>
