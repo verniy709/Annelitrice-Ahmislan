@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_6C" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>100</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>0.6</ToxicResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<forceRenderUnderHair>true</forceRenderUnderHair>
+			<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+      		<!-- <hatRenderedAboveBody>true</hatRenderedAboveBody> -->
+			<!-- <hatRenderedBehindHead>true</hatRenderedBehindHead> -->
+			<bodyPartGroups>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_DesertScarf-->
+	<ThingDef ParentName="Anneli_Ahmislan_6C">
+		<defName>Anneli_Ahmislan_DesertScarf</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6C_DesertScarf</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.1</HungerRateMultiplier> -->
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6C/Anneli_Ahmislan_DesertScarf</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Ahmislan_DesertScarf</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Vagrant</li>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+	
+<!--Anneli_Ahmislan_Veil-->
+	<ThingDef ParentName="Anneli_Ahmislan_6C">
+		<defName>Anneli_Ahmislan_Veil</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6C_Veil</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6C/Anneli_Ahmislan_Veil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6C/Anneli_Ahmislan_Veil</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

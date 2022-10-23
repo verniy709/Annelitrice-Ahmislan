@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_1C" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>100</WorkToMake>
+			<Mass>0.2</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Feet</li>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+		<graphicData>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_TornSocks-->
+	<ThingDef ParentName="Anneli_Ahmislan_1C">
+		<defName>Anneli_Ahmislan_TornSocks</defName>
+		<description>Dyeable.</description><!-- \nTry not to take off your shoes, and no one would know. -->
+		<label>(Ahmislan)1C_TornSocks</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.05</HungerRateMultiplier> -->
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1C/Anneli_Ahmislan_TornSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Ahmislan_TornSocks</wornGraphicPath>
+			<tags>
+				<!-- <li>Anneli_Ahmislan_Vagrant</li> -->
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+		
+<!--Anneli_Ahmislan_RibbonSocks-->
+	<ThingDef ParentName="Anneli_Ahmislan_1C">
+		<defName>Anneli_Ahmislan_RibbonSocks</defName>
+		<description>Dyeable.</description><!-- \nPlain socks with some ruffles. -->
+		<label>(Ahmislan)1C_RibbonSocks</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1C/Anneli_Ahmislan_RibbonSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Ahmislan_RibbonSocks</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_Stockings-->
+	<ThingDef ParentName="Anneli_Ahmislan_1C">
+		<defName>Anneli_Ahmislan_Stockings</defName>
+		<description>Dyeable.</description><!-- \nStockings with some ruffles. -->
+		<label>(Ahmislan)1C_Stockings</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1C/Anneli_Ahmislan_Stockings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Ahmislan_Stockings</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Knight</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 225-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>		
+
+<!--Anneli_Ahmislan_NunStockings-->
+	<ThingDef ParentName="Anneli_Ahmislan_1C">
+		<defName>Anneli_Ahmislan_NunStockings</defName>
+		<description>Dyeable.</description><!-- \nUnderwear designed for holy purposes. -->
+		<label>(Ahmislan)1C_NunStockings</label>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.05</MedicalTendQuality>
+			<MedicalTendSpeed>0.05</MedicalTendSpeed>
+			<ConversionPower>0.1</ConversionPower>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1C/Anneli_Ahmislan_NunStockings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Ahmislan_NunStockings</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Clergywoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+<!--Anneli_Ahmislan_StirrupLeggings-->
+	<ThingDef ParentName="Anneli_Ahmislan_1C">
+		<defName>Anneli_Ahmislan_StirrupLeggings</defName>
+		<description>Dyeable.</description><!-- \nAn attire of the high-class, graced by gold fringe. -->
+		<label>(Ahmislan)1C_StirrupLeggings</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1C/Anneli_Ahmislan_StirrupLeggings</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1C/Anneli_Ahmislan_StirrupLeggings</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 225-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>	
+
+
+</Defs>

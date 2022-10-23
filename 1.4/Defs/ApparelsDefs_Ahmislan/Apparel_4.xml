@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_4" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<Mass>2</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+			<SuppressionPower>0.2</SuppressionPower>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_UpperShell_Armor</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_4_NonMetal" ParentName="Anneli_Ahmislan_4"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_4_Metal" ParentName="Anneli_Ahmislan_4"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
+
+	<!--Anneli_Ahmislan_LeatherVest-->
+	<ThingDef ParentName="Anneli_Ahmislan_4_NonMetal">
+		<defName>Anneli_Ahmislan_LeatherVest</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)4_LeatherVest</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_LeatherVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_LeatherVest</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_LeatherCorset-->
+	<ThingDef ParentName="Anneli_Ahmislan_4_NonMetal">
+		<defName>Anneli_Ahmislan_LeatherCorset</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)4_LeatherCorset</label>
+		<graphicData>
+			<texPath>4/Anneli_Ahmislan_LeatherCorset</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>4/Anneli_Ahmislan_LeatherCorset</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+				<li>Anneli_Ahmislan_Clergywoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

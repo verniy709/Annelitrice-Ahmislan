@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_3" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>500</WorkToMake>
+			<Mass>2.0</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<apparel>
+			<shellCoversHead>false</shellCoversHead>
+			<shellRenderedBehindHead>true</shellRenderedBehindHead><!--Shell layer visual glitch-->
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantApron-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_PeasantApron</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_PeasantApron</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.1</HungerRateMultiplier> -->
+			<ButcheryFleshSpeed>0.20</ButcheryFleshSpeed>
+			<ButcheryFleshEfficiency>0.20</ButcheryFleshEfficiency>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_PeasantApron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_PeasantApron</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantKirtle-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_PeasantKirtle</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_PeasantKirtle</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.1</HungerRateMultiplier> -->
+			<NegotiationAbility>0.2</NegotiationAbility>
+			<SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_PeasantKirtleA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_PeasantKirtleA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>
+					<li>
+						<apparelDef>Anneli_Ahmislan_MaidDress</apparelDef>
+						<level>1</level>
+						<path>3/Anneli_Ahmislan_PeasantKirtleB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 	
+					<li>
+						<apparelDef>Anneli_Ahmislan_ArcherDress</apparelDef>
+						<level>1</level>
+						<path>3/Anneli_Ahmislan_PeasantKirtleB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 
+					<li>
+						<apparelDef>Anneli_Ahmislan_KnightDress</apparelDef>
+						<level>1</level>
+						<path>3/Anneli_Ahmislan_PeasantKirtleB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantRobe-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_PeasantRobe</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_PeasantRobe</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.1</HungerRateMultiplier> -->
+			<PlantWorkSpeed>0.1</PlantWorkSpeed>
+			<PlantHarvestYield>0.1</PlantHarvestYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_PeasantRobeA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_PeasantRobeA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>
+					<li>
+						<apparelDef>Anneli_Ahmislan_MaidDress</apparelDef>
+						<level>0</level>
+						<path>3/Anneli_Ahmislan_PeasantRobeB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 	
+					<li>
+						<apparelDef>Anneli_Ahmislan_ArcherDress</apparelDef>
+						<level>0</level>
+						<path>3/Anneli_Ahmislan_PeasantRobeB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 
+					<li>
+						<apparelDef>Anneli_Ahmislan_KnightDress</apparelDef>
+						<level>0</level>
+						<path>3/Anneli_Ahmislan_PeasantRobeB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantTunic-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_PeasantTunic</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_PeasantTunic</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.1</HungerRateMultiplier> -->
+			<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
+			<AnimalGatherYield>0.1</AnimalGatherYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_PeasantTunic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_PeasantTunic</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_CraftsVest-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_CraftsVest</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_CraftsVest</label>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+			<MiningSpeed>0.1</MiningSpeed>
+			<MiningYield>0.1</MiningYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_CraftsVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_CraftsVest</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_MaidApron-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_MaidApron</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_MaidApron</label>
+		<equippedStatOffsets>
+			<TrainAnimalChance>0.1</TrainAnimalChance>
+			<CookSpeed>0.1</CookSpeed>
+			<FoodPoisonChance>-0.1</FoodPoisonChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_MaidApron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_MaidApron</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_CourtLady</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_ArcherJacket-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_ArcherJacket</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_ArcherJacket</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.1</PainShockThreshold>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_ArcherJacket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_ArcherJacket</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(200,175,155)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_NunCassock-->
+	<ThingDef ParentName="Anneli_Ahmislan_3">
+		<defName>Anneli_Ahmislan_NunCassock</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)3_NunCassock</label>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.1</MedicalTendQuality>
+			<MedicalTendSpeed>0.1</MedicalTendSpeed>
+			<ConversionPower>0.2</ConversionPower>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>3/Anneli_Ahmislan_NunCassockA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>3/Anneli_Ahmislan_NunCassockA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Clergywoman</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="Annelitrice.CompProperties_ApparelSecialTex">
+				<replaceTexPathList>
+					<li>
+						<apparelDef>Anneli_Ahmislan_MaidDress</apparelDef>
+						<level>0</level>
+						<path>3/Anneli_Ahmislan_NunCassockB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 	
+					<li>
+						<apparelDef>Anneli_Ahmislan_ArcherDress</apparelDef>
+						<level>0</level>
+						<path>3/Anneli_Ahmislan_NunCassockB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 
+					<li>
+						<apparelDef>Anneli_Ahmislan_KnightDress</apparelDef>
+						<level>0</level>
+						<path>3/Anneli_Ahmislan_NunCassockB</path>
+						<!-- <shader>CutoutComplex</shader> -->
+					</li> 
+				</replaceTexPathList>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

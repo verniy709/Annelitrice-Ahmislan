@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Anneli_Ahmislan_SwordWing_Bullet-->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Anneli_Ahmislan_SwordWing_Bullet</defName>
+		<label>sword wing bullet</label>
+		<graphicData>
+			<texPath>Projectiles/Anneli_Ahmislan_SwordWingBullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>RangedStab</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<speed>40</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- Anneli_Ahmislan_SwordWing_Sound-->
+	<SoundDef>
+		<defName>Anneli_Ahmislan_SwordWing_Sound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Anneli_Ahmislan_SwordWing</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>18</min>
+					<max>20</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.95</min>
+					<max>1.05</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef Name="Anneli_Ahmislan_7A" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>1000</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.15</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>0.5</MeleeHitChance>
+			<MeleeDodgeChance>0.5</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_Weapon</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack><!--Under Body-->
+			</wornGraphicData>
+		</apparel>
+		<tickerType>Normal</tickerType><!--tickerType-->
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<label>swordWing</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Anneli_Ahmislan_SwordWing_Bullet</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>6</burstShotCount>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<soundCast>Anneli_Ahmislan_SwordWing_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<accuracyTouch>0.75</accuracyTouch>
+				<accuracyShort>0.85</accuracyShort>
+				<accuracyMedium>0.85</accuracyMedium>
+				<accuracyLong>0.65</accuracyLong>
+				<defaultCooldownTime>2.0</defaultCooldownTime>
+				<commandIcon>7A/Anneli_Ahmislan_CrystalSwordWing</commandIcon>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_VerbGiver">
+				<verbProps>
+					<li>
+						<label>swordWing</label>
+						<draw>false</draw>
+						<description>swordWing.</description>
+						<canBeToggled>true</canBeToggled>
+						<comps>
+							<li Class="MVCF.VerbComps.VerbCompProperties_Turret">
+								<compClass>MVCF.VerbComps.VerbComp_Turret</compClass>
+								<humanAsDefault>true</humanAsDefault>
+							</li>
+						</comps>
+					</li>
+				</verbProps>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_SwordWing-->
+	<ThingDef ParentName="Anneli_Ahmislan_7A">
+		<defName>Anneli_Ahmislan_SwordWing</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)7A_SwordWing</label>
+		<graphicData>
+			<texPath>7A/Anneli_Ahmislan_SwordWing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>7A/Anneli_Ahmislan_SwordWing</wornGraphicPath>
+			<tags>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.1</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_CrystalSwordWing-->
+	<ThingDef ParentName="Anneli_Ahmislan_7A">
+		<defName>Anneli_Ahmislan_CrystalSwordWing</defName>
+		<description>NOT dyeable.</description>
+		<label>(Ahmislan)7A_CrystalSwordWing</label>
+		<graphicData>
+			<texPath>7A/Anneli_Ahmislan_CrystalSwordWing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>7A/Anneli_Ahmislan_CrystalSwordWing</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.1</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

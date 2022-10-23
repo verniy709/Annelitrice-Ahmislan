@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_6ABC" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+			<WorkToMake>400</WorkToMake>
+			<Mass>1.0</Mass>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicResistance>0.6</ToxicResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>		
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_6ABC_NonMetal" ParentName="Anneli_Ahmislan_6ABC"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_6ABC_Metal" ParentName="Anneli_Ahmislan_6ABC"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_SoldierHelmet-->
+	<ThingDef ParentName="Anneli_Ahmislan_6ABC_Metal">
+		<defName>Anneli_Ahmislan_SoldierHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6ABC_SoldierHelmet</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6ABC/Anneli_Ahmislan_SoldierHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Ahmislan_SoldierHelmet</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_FullHelmet</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>10</weight>
+                    <only>(180,175,175)</only>
+                </li>
+            </options>
+        </colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_KnightHelmet-->
+	<ThingDef ParentName="Anneli_Ahmislan_6ABC_Metal">
+		<defName>Anneli_Ahmislan_KnightHelmet</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6ABC_KnightHelmet</label>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.05</PainShockThreshold>
+			<MeleeHitChance>0.05</MeleeHitChance>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6ABC/Anneli_Ahmislan_KnightHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6ABC/Anneli_Ahmislan_KnightHelmet</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Knight</li>
+				<li>Anneli_FullHelmet</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+	</ThingDef>
+			
+</Defs>

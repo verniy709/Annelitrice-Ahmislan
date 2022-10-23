@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_6B" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>10</costStuffCount>
+		<statBases>
+			<WorkToMake>100</WorkToMake>
+			<Mass>0.2</Mass>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<forceRenderUnderHair>true</forceRenderUnderHair>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_6B_NonMetal" ParentName="Anneli_Ahmislan_6B"  Abstract="True">
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.5</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef Name="Anneli_Ahmislan_6B_Metal" ParentName="Anneli_Ahmislan_6B"  Abstract="True">
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+			<Flammability>0.15</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Monocle-->
+	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
+		<defName>Anneli_Ahmislan_Monocle</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6B_Monocle</label>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.05</AimingDelayFactor>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6B/Anneli_Ahmislan_Monocle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Ahmislan_Monocle</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255,200,145)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(180,175,175)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+	<!--Anneli_Ahmislan_Mask-->
+	<ThingDef ParentName="Anneli_Ahmislan_6B_Metal">
+		<defName>Anneli_Ahmislan_Mask</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)6B_EyeMask</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>6B/Anneli_Ahmislan_Mask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>6B/Anneli_Ahmislan_Mask</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Royalty</li>
+			</tags>
+			<forceRenderUnderHair>false</forceRenderUnderHair>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(170,030,030)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.5</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

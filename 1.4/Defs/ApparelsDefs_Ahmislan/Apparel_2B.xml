@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_2B" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantPants-->
+	<ThingDef ParentName="Anneli_Ahmislan_2B">
+		<defName>Anneli_Ahmislan_PeasantPants</defName>
+		<description>Dyeable.</description><!-- \nDurable and affordable shorts. -->
+		<label>(Ahmislan)2B_PeasantPants</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.05</HungerRateMultiplier> -->
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<PlantHarvestYield>0.05</PlantHarvestYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2B/Anneli_Ahmislan_PeasantPants</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2B/Anneli_Ahmislan_PeasantPants</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(220,215,210,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantShorts-->
+	<ThingDef ParentName="Anneli_Ahmislan_2B">
+		<defName>Anneli_Ahmislan_PeasantShorts</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2B_PeasantShorts</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.05</HungerRateMultiplier> -->
+			<AnimalGatherSpeed>0.05</AnimalGatherSpeed>
+			<AnimalGatherYield>0.05</AnimalGatherYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2B/Anneli_Ahmislan_PeasantShorts</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2B/Anneli_Ahmislan_PeasantShorts</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(220,215,210,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_PeasantSkirt-->
+	<ThingDef ParentName="Anneli_Ahmislan_2B">
+		<defName>Anneli_Ahmislan_PeasantSkirt</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2B_PeasantSkirt</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.05</HungerRateMultiplier> -->
+			<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			<PlantHarvestYield>0.05</PlantHarvestYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2B/Anneli_Ahmislan_PeasantSkirt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2B/Anneli_Ahmislan_PeasantSkirt</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(80,100,120,235)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(140,060,055,235)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070,235)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(120,130,115,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_CraftsShorts-->
+	<ThingDef ParentName="Anneli_Ahmislan_2B">
+		<defName>Anneli_Ahmislan_CraftsShorts</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)2B_CraftsShorts</label>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<MiningSpeed>0.05</MiningSpeed>
+			<MiningYield>0.05</MiningYield>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>2B/Anneli_Ahmislan_CraftsShorts</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>2B/Anneli_Ahmislan_CraftsShorts</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

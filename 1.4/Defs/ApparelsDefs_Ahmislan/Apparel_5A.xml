@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_5A" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<Mass>0.5</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+			<ComfyTemperatureMax>5</ComfyTemperatureMax>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Anneli_UpperShell_Tactical</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_SurvivalKit-->
+	<ThingDef ParentName="Anneli_Ahmislan_5A">
+		<defName>Anneli_Ahmislan_SurvivalKit</defName>
+		<description>Dyeable.</description>
+		<label>(Ahmislan)5A_SurvivalKit</label>
+		<equippedStatOffsets>
+			<CarryingCapacity>2.5</CarryingCapacity>
+			<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>5A/Anneli_Ahmislan_SurvivalKit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>5A/Anneli_Ahmislan_SurvivalKit</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_Militia</li>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_CourtLady</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(65,065,070)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(75,070,075)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(100,090,090)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(135,090,065)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<generateAllowChance>0.25</generateAllowChance><!--Less Spawn-->
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Anneli_Ahmislan_1B" ParentName="Anneli_Ahmislan_ApparelCommonBase"  Abstract="True">
+		<costStuffCount>10</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<WorkToMake>100</WorkToMake>
+			<Mass>0.2</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1</EquipDelay>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<Cleanliness>0.05</Cleanliness>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Anneli_Ahmislan</li>
+			</tags>
+		</apparel>
+		<graphicData>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_TornUnderwearA-->
+	<ThingDef ParentName="Anneli_Ahmislan_1B">
+		<defName>Anneli_Ahmislan_TornUnderwearA</defName>
+		<description>Dyeable.</description><!-- \nDirty rags. Better than nothing. -->
+		<label>(Ahmislan)1B_TornUnderwearA</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.05</HungerRateMultiplier> -->
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1B/Anneli_Ahmislan_TornUnderwearA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Ahmislan_TornUnderwearA</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Vagrant</li>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_TornUnderwearB-->
+	<ThingDef ParentName="Anneli_Ahmislan_1B">
+		<defName>Anneli_Ahmislan_TornUnderwearB</defName>
+		<description>Dyeable.</description><!-- \nDirty rags. Better than nothing. -->
+		<label>(Ahmislan)1B_TornUnderwearB</label>
+		<equippedStatOffsets>
+			<!-- <HungerRateMultiplier>-0.05</HungerRateMultiplier> -->
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1B/Anneli_Ahmislan_TornUnderwearB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Ahmislan_TornUnderwearB</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Vagrant</li>
+				<li>Anneli_Ahmislan_PeasantMan</li>
+				<li>Anneli_Ahmislan_PeasantWoman</li>
+				<li>Anneli_Ahmislan_Militia</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+<!--Anneli_Ahmislan_Underwear-->
+	<ThingDef ParentName="Anneli_Ahmislan_1B">
+		<defName>Anneli_Ahmislan_Underwear</defName>
+		<description>Dyeable.</description><!-- \nA plain underwear with some ruffles. -->
+		<label>(Ahmislan)1B_Underwear</label>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.1</NegotiationAbility>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<graphicData>
+			<texPath>1B/Anneli_Ahmislan_Underwear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>1B/Anneli_Ahmislan_Underwear</wornGraphicPath>
+			<tags>
+				<li>Anneli_Ahmislan_Craftswoman</li>
+				<li>Anneli_Ahmislan_Merchant</li>
+				<li>Anneli_Ahmislan_MercenaryInfantry</li>
+				<li>Anneli_Ahmislan_MercenaryArcher</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask><!--Mask Applied-->
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options"><!--Tansparency 235-->
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(250,240,240,235)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>
